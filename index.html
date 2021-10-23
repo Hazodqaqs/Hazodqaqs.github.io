@@ -11,8 +11,8 @@
 <style type="text/css">
 *{border:0;margin: 0;padding: 0}
 body{
-  //background-image:url('image/kappo.jpg');
-  //background-size:cover;
+  background-image:url('image/kappo.jpg');
+  background-size:cover;
 }
 label { 
     color:white; 
@@ -401,20 +401,17 @@ label {
 <script type="text/javascript" src="jQuery/jquery-1.6.4.min.js"></script>
 <script type="text/javascript">
    $(function(){
-	echo "測試1?";
+	echo "test1";
 	var musicList=[];
 	var musicStar=[];
-	echo "測試2?";
 	$list=scandir("music");
-	echo "測試3?";
 	foreach($list as $value)
 	{
-		echo "測試4?";
 		if(is_file("music"."/".$value))
 			array_push(musicList,$value);
 			array_push(musicStar,$value);
-			echo "測試5?";
- 	{
+			echo "test2";
+ 	}
       //var musicList=["你的行李.mp3","飛鳥與蟬.mp3","星辰大海.mp3","四季予你.mp3","天黑請閉眼.mp3","太空人.mp3","不為誰而作的歌.mp3","你,好不好.mp3","晚安晚安.mp3","句號.mp3","歌頌者.mp3","我很好騙.mp3","家家酒.mp3","巴別塔慶典.mp3","年輪說.mp3","怎麼了.mp3","愛人錯過.mp3","愛情怎麼了嗎.mp3","我好嗎.mp3","歌頌者.mp3","炙愛.mp3","煙幕.mp3","直到我遇見了你.mp3","說好不哭.mp3","路過人間.mp3","連名帶姓.mp3","摩天動物園.mp3","魚仔.mp3","葉子.mp3","寂寞邊界.mp3","CC/路過人間.mp3","CC/白月光與朱砂痣.mp3"];
       //var musicStar=["謝震廷","任然","黃霄雲","程響","顏志琳","吳青峰","林俊傑","周興哲","魏如萱","鄧紫棋","吳青峰","動力火車","家家","吳青峰","楊丞琳","周興哲","告五人","盧廣仲","梁靜茹","吳青峰","陳昕玥","陳昕玥","陳友廷","周杰倫","郁可唯","張惠妹","鄧紫棋","盧廣仲","阿桑","張棟樑","郁可唯","胖虎"]
       
