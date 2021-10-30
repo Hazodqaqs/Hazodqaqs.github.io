@@ -11,7 +11,7 @@
 <style type="text/css">
 *{border:0;margin: 0;padding: 0}
 body{
-  background-image:url('image/element.jpg');
+  background-image:url('image/kkappo.jpg');
   background-size:cover;
 }
 label { 
@@ -400,80 +400,99 @@ label {
 </style>
 <script type="text/javascript" src="jQuery/jquery-1.6.4.min.js"></script>
 <script type="text/javascript">
-   $(function(){
-      var musicList=["你的行李.mp3","飛鳥與蟬.mp3","星辰大海.mp3","四季予你.mp3","天黑請閉眼.mp3","太空人.mp3","不為誰而作的歌.mp3","你,好不好.mp3","晚安晚安.mp3","句號.mp3","歌頌者.mp3","我很好騙.mp3","家家酒.mp3","巴別塔慶典.mp3","年輪說.mp3","怎麼了.mp3","愛人錯過.mp3","愛情怎麼了嗎.mp3","我好嗎.mp3","歌頌者.mp3","炙愛.mp3","煙幕.mp3","直到我遇見了你.mp3","說好不哭.mp3","路過人間.mp3","連名帶姓.mp3","摩天動物園.mp3","魚仔.mp3","葉子.mp3","寂寞邊界.mp3"];
-      var musicStar=["謝震廷","任然","黃霄雲","程響","顏志琳","吳青峰","林俊傑","周興哲","魏如萱","鄧紫棋","吳青峰","動力火車","家家","吳青峰","楊丞琳","周興哲","告五人","盧廣仲","梁靜茹","吳青峰","陳昕玥","陳昕玥","陳友廷","周杰倫","郁可唯","張惠妹","鄧紫棋","盧廣仲","阿桑","張棟樑"]
-      var musicListen=["Forever After All.mp3","Cardigan.mp3","Memories.mp3","Shallow.mp3","YOU&I.mp3","Lost Cause.mp3","bad guy.mp3","lovely.mp3","Breathless.mp3","How Far I'll Go.mp3","Speechless.mp3","Flashlight.mp3","Skyscraper.mp3","Firework.mp3","Titanium.mp3","I Wrote a Song Using Only Hate Comments 2.mp3","Peaches.mp3","Hold On.mp3","Yummy.mp3","Lonely.mp3","Intentions.mp3","Purpose.mp3"];
-      var musicStaren=["Luke Combs","Taylor Swift","Maroon 5","Lady Gaga,Bradley Cooper","J.R.A","Billie Eilish","Billie Eilish","Billie Eilish,Khalid","Shayne Ward","Alessia Cara","Naomi Scott","Jessie J","Demi Lovato","Madilyn Bailey","Madilyn Bailey","Madilyn Bailey","Justin Bieber","Justin Bieber","Justin Bieber","Justin Bieber","Justin Bieber","Justin Bieber"];
-	  var musicListjp=["us.mp3","Prover.mp3","Who I Am.mp3","Tell me.mp3","Drown.mp3","The Love We've Made.mp3","夜に駆ける.mp3","群青.mp3","怪物.mp3","シャルル.mp3","蝶々結び.mp3","Ref rain.mp3","Rokutouseino Yoru.mp3","さよならの今日に.mp3","Remember the Days We're Talking Rubbish in the Twilight.mp3","貓.mp3"];
-      var musicStarjp=["Milet","Milet","Milet","Milet","Milet","Milet","YOASOBI","YOASOBI","YOASOBI","バルーン","Aimer","Aimer","Aimer","Aimyon","Aimyon","DISH"];
-	  var totallist=[musicList,musicListen,musicListjp];
-	  var totalstarlist=[musicStar,musicStaren,musicStarjp];
-	  var myAudio=document.getElementById("myAudio");
+   $(function(){ 
+      var musicListch=["你的行李.mp3","飛鳥與蟬.mp3","星辰大海.mp3","四季予你.mp3","天黑請閉眼.mp3","太空人.mp3","不為誰而作的歌.mp3","你,好不好.mp3","晚安晚安.mp3","句號.mp3","歌頌者.mp3","我很好騙.mp3","家家酒.mp3","巴別塔慶典.mp3","年輪說.mp3","怎麼了.mp3","愛人錯過.mp3","愛情怎麼了嗎.mp3","我好嗎.mp3","歌頌者.mp3","炙愛.mp3","煙幕.mp3","直到我遇見了你.mp3","說好不哭.mp3","路過人間.mp3","連名帶姓.mp3","摩天動物園.mp3","魚仔.mp3","葉子.mp3","寂寞邊界.mp3","CC/路過人間.mp3","CC/白月光與朱砂痣.mp3","李李鈴蘭/BB88 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Lydia 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Lydia 李李鈴蘭.mp3","李李鈴蘭/STAY 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Stay 自填中文版 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/一首想不通的古風│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/不枉│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/不醉不會│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/他們說我是沒有用的年輕人／李李鈴蘭.mp3","李李鈴蘭/喵電感應│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/囍／李李鈴蘭.mp3","李李鈴蘭/國境之南│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/大喜 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/大風吹 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/天涯│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/太陽│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/好想愛這個世界啊 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/官方回答│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/小丑的品格│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/少年弦│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/年輪說 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/廣寒宮│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/弱水三千│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/念你│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/慢慢等│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/我想我不夠好│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/我當你空氣│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/月牙灣 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/沒關係│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/牽絲戲／李李鈴蘭.mp3","李李鈴蘭/玫瑰少年│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/笑看│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/致姍姍來遲的你│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/花月成雙│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/蠢貨│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/超跑情人夢／李李鈴蘭.mp3","李李鈴蘭/還願│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/醉│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/長安亂／李李鈴蘭.mp3","李李鈴蘭/阿楚姑娘│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/鳥鳥模仿秀首部曲│李李鈴蘭 Linglan Lily.mp3"]
+      var musicStarch=new Array(musicListch.length-1);
+      
+      var musicListen=["Forever After All.mp3","Cardigan.mp3","Memories.mp3","Shallow.mp3","YOU&I.mp3","Lost Cause.mp3","bad guy.mp3","lovely.mp3","Breathless.mp3","How Far I'll Go.mp3","Speechless.mp3","Flashlight.mp3","Skyscraper.mp3","Firework.mp3","Titanium.mp3","I Wrote a Song Using Only Hate Comments 2.mp3","Peaches.mp3","Hold On.mp3","Yummy.mp3","Lonely.mp3","Intentions.mp3","Purpose.mp3","Kokia/5つ目の季節.mp3","Kokia/Aliens ～宇宙人わかりました～.mp3","Kokia/Amazing Grace.mp3","Kokia/Ave Maria.mp3","Kokia/Ave Maria（bach）.mp3","Kokia/Black is the Colour.mp3","Kokia/bridge.mp3","Kokia/Bye Bye Blackbird.mp3","Kokia/Chiisana Uta.mp3","Kokia/Christmas Medley.mp3","Kokia/cocoro.mp3","Kokia/copy.bat","Kokia/Dance with the wind.mp3","Kokia/Dear Armstrong.mp3","Kokia/DESPERADO.mp3","Kokia/Everlasting.mp3","Kokia/Family Tree.mp3","Kokia/from 16.mp3","Kokia/FURUSATO ～故郷～.mp3","Kokia/Gomenne..mp3","Kokia/Hallelujah.mp3","Kokia/Hello.mp3","Kokia/HOME.mp3","Kokia/HUMANITARIAN.mp3","Kokia/I Found the Love.mp3","Kokia/I Found You.mp3","Kokia/I'LL BE HOME FOR CHRISTMAS.mp3","Kokia/Il mare dei suoni.mp3","Kokia/INFINITY.mp3","Kokia/It Came Upon A Midnight Clear.mp3","Kokia/KOKIA - Wherever I am ～world tour 2009 in Europe～【 予告編 】.mp3","Kokia/KOKIA　20周年記念リリース　告知映像.mp3","Kokia/Lacrima.mp3","Kokia/liar liar ～ロマンティックワルツ.mp3","Kokia/life goes on.mp3","Kokia/list.txt","Kokia/Love Me Tender.mp3","Kokia/Make Sense.mp3","Kokia/moment ～今を生きる～.mp3","Kokia/MOONLIGHT SHADOW.mp3","Kokia/Nanimo Kamo Ga Hoshi Ni Natte.mp3","Kokia/Nipponjin.mp3","Kokia/Odayakana Shizukesa - Jyoka.mp3","Kokia/Over The Rainbow.mp3","Kokia/Recover.mp3","Kokia/Remember the kiss ～Dedicated to “New”NY～.mp3","Kokia/Smile.mp3","Kokia/so sad so bad.mp3","Kokia/Solace ～記憶の森に積もる絵画.mp3","Kokia/something blue & something red.mp3","Kokia/Song of Pocchong - Shizuku No Uta.mp3","Kokia/t0000.txt","Kokia/te a te.mp3","Kokia/temp2xyzxyz.txt","Kokia/Teo Torriatte（Let Us Cling Together）.mp3","Kokia/The Long and Winding Road.mp3","Kokia/Todokimasuyoni.mp3","Kokia/tori.mp3","Kokia/usaghi.mp3","Kokia/vintage love.mp3","Kokia/We Three Kings Of Orient Are.mp3","Kokia/What a wonderful world.mp3","Kokia/Where to go my love（Piano ver.）.mp3","Kokia/why do I sing.mp3","Kokia/you are not alone.mp3","Kokia/[Watashi ni Dekiru Koto].mp3","Kokia/あたたかい場所.mp3","Kokia/ありがとう…（from KOKIA 2007）.mp3","Kokia/いつか誰かを愛した時.mp3","Kokia/うす桃色の季節.mp3","Kokia/おいしい音 yum yum music.mp3","Kokia/おばあちゃん.mp3","Kokia/お化けが怖いなんて.mp3","Kokia/この胸の苦しみが愛おしいほどに生きて.mp3","Kokia/ぬくもり.mp3","Kokia/はじまり.mp3","Kokia/もう一度….mp3","Kokia/やさしくされると　やさしくなれる花.mp3","Kokia/アヒルのココロ.mp3","Kokia/オギャーと産まれて.mp3","Kokia/サルスベリの揺れる頃.mp3","Kokia/ヒトの中にあるもの.mp3","Kokia/ピエロの夢.mp3","Kokia/世界の終わりに.mp3","Kokia/二人の娘.mp3","Kokia/優しい調べ.mp3","Kokia/命の光.mp3","Kokia/夜明け～rebirth.mp3","Kokia/大きな背中.mp3","Kokia/大丈夫 だいじょうぶ.mp3","Kokia/大人のオオカミ.mp3","Kokia/天気がいい ビール飲もう.mp3","Kokia/宇宙が….mp3","Kokia/微笑みを忘れないように.mp3","Kokia/心のロウソク.mp3","Kokia/忘れ物.mp3","Kokia/愛と平和と音楽と.mp3","Kokia/愛はこだまする.mp3","Kokia/戦火の花.mp3","Kokia/旅列車 life train.mp3","Kokia/星屑のヴォカリーズ.mp3","Kokia/映画のような恋でした.mp3","Kokia/本当の音.mp3","Kokia/無力と知った日.mp3","Kokia/祈りにも似た美しい世界.mp3","Kokia/私の中の獣.mp3","Kokia/空でつながってる.mp3","Kokia/笑えない話.mp3","Kokia/罪滅ぼしの歌.mp3","Kokia/聖なる夜に～holly night.mp3","Kokia/花宴.mp3","Kokia/覚醒～OPEN YOUR EYES～.mp3","Kokia/言葉の向こう側.mp3","Kokia/道化.mp3","Kokia/音のアルバム.mp3"];
+      var musicStaren=new Array(musicListen.length-1);
+      
+      var musicListjp=["us.mp3","Prover.mp3","Who I Am.mp3","Tell me.mp3","Drown.mp3","The Love We've Made.mp3","夜に駆ける.mp3","群青.mp3","怪物.mp3","シャルル.mp3","蝶々結び.mp3","Ref rain.mp3","Rokutouseino Yoru.mp3","さよならの今日に.mp3","Remember the Days We're Talking Rubbish in the Twilight.mp3","貓.mp3","weathering with you OST.mp3","CC/Violet Evergarden - I Love You.mp3","CC/86 不存在的戰區 ED Full ｜ Avid SawanoHiroyuki_mizuki ｜Piano Cover By Yu Lun.mp3","CC/AFN Music Sheets - Violet Evergarden OST - Violet Evergarden_Fonzi M.mp3","CC/All of Me (Jon Schmidt original tune) - The Piano Guys.mp3","CC/Aquaman Soundtrack Everything I Need Skylar Grey.mp3","CC/Avatar - Main Theme (Piano Version).mp3","CC/Disney - Mulan - Reflection Piano Solo HD + Sheets!.mp3","CC/Disney - The Little Mermaid - Part of Your World (violin, piano) - FT. ViolinTay!.mp3","CC/Disney Pixar's Up - Married Life (Main Theme) for Piano Solo HD.mp3","CC/EGOIST - Ghost of a smile (Piano cover + Lyrics).mp3","CC/Elegy Dedicated With Love.mp3","CC/Emotional Piano Music Mix - Autumn Stories _ by Fabrizio Paterlini.mp3","CC/Friend A - Shigatsu wa Kimi no Uso [Piano Tutorial] (Synthesia) _ Chewie Melodies.mp3","CC/Frozen - Let It Go for Advanced Piano Solo!.mp3","CC/Gladiator - Now We Are Free (Piano Version) + Sheet Music.mp3","CC/Glassy Sky - Tokyo Ghoul [Piano Tutorial] (Synthesia) _ Tayyab Shehzad.mp3","CC/Glow _ HatsuneMiku.mp3","CC/Hans Zimmer - Interstellar - Main Theme (Piano Version) + Sheet Music.mp3","CC/Hatsune Miku - Tell Your World FULL   Piano Arrangement.mp3","CC/Hirari, Hirari  Hatsune Miku (Piano Tutorial) Synthesia 琴譜 Sheet Music.mp3","CC/Howls Moving Castle Theme for Solo Piano HD.mp3","CC/Ichiban no Takaramono - Angel Beats! OST [Piano].mp3","CC/Jarrod Radnich - Virtuosic  Piano Solo - Harry Potter.mp3","CC/Jordans Song (original) _ Violin & Piano _ 92 Keys.mp3","CC/Jurassic Park - Main Theme (Piano Version).mp3","CC/Kim Na-young - Maze (While You Were Sleeping OST 8) Piano Cover w_ Sheets.mp3","CC/Kokia - INFINITY [CC_Jpn].mp3","CC/Leonard Cohen - Hallelujah Piano Solo.mp3","CC/LiSA「Gurenge」 _ Kimetsu no Yaiba OP _ Piano Cover by HalcyonMusic.mp3","CC/Madara Death (Hokages Funeral Theme) - Naruto Shippuuden 474 - Piano Transcription and Cover.mp3","CC/majiko - kokoro tsukushi.mp3","CC/Maquia - When The Promised Flower Blooms ED - Viator _ Piano Cover _ PianoPrinceOfAnime.mp3","CC/Michishirube - Minori Chihara _ Violet Evergarden ED_ Piano ver. Rui Ruii.mp3","CC/Mimei no Kimi to Hakumei no Mahou - Irozuku Sekai no Ashita Kara ED - Piano Arrangement [Synthesia].mp3","CC/Monogram - Lucid Dream (While You Were Sleeping OST 6) Piano Cover w_ Sheets.mp3","CC/Most Beautiful Music - In The End by @Marcus Warner.mp3","CC/Most Beautiful Music Ever - Everdream by Epic Soul Factory.mp3","CC/Most Emotional Music - Found by @Marika Takeuchi.mp3","CC/Most Emotional Music - White Forest by Cicada.mp3","CC/My Heart Will Go On - Titanic - Epic Piano Solo Cover _ Leiki Ueda.mp3","CC/ONE OK ROCK - Broken Heart Of Gold (LYRIC VIDEO).mp3","CC/ONE OK ROCK - Renegades Japanese Version [OFFICIAL MUSIC VIDEO].mp3","CC/One Summers Day [PIANO].mp3","CC/Opening a New Chapter - Beyond the Horizon [Piano Tutorial] (Synthesia) _ Akmigone.mp3","CC/Pirates of the Caribbean - Hes a Pirate (Piano Version).mp3","CC/Planet Earth II - Main Theme (Piano Version).mp3","CC/rionos.mp3","CC/Seishun Buta Yarou - Bunny Girl Senpai OST - Piano Arrangement [Synthesia].mp3","CC/Senbonzakura - Hatsune Miku (Piano Tutorial + Sheets) (HalcyonMusic).mp3","CC/Shaun「Way Back Home」Piano Cover.mp3","CC/Shingeki no Kyojin 3 Episode 3, 6 OST - 2Volt (Piano & Orchestral Cover) [EMOTIONAL].mp3","CC/Synthesia - 「Higurashi no Naku Koro ni」 - You [100% Speed].mp3","CC/Test Drive - How To Train Your Dragon (Piano Cover) [Advanced].mp3","CC/The Dark Knight - Main Theme (Piano Version) + Sheet Music.mp3","CC/The Greatest Showman Advanced Piano Medley with Sheet Music.mp3","CC/The Greatest Showman OST Medley - 4hands piano.mp3","CC/The Legend of Zelda - Breath of the Wild Main Theme Rus Piano Cover.mp3","CC/The Lord of the Rings - Main Theme (Piano Version).mp3","CC/Top 10 Movie Songs on Piano.mp3","CC/Torches _ Aimer - Vinland Saga ED - Piano Cover (Full Extended) (Lyrics Video).mp3","CC/Uchiage Hanabi (Fireworks) - Piano Tutorial + Sheets by HalcyonMusic.mp3","CC/Umineko When They Cry   Black Lilliana.mp3","CC/Viator - rionos (Maquia Theme Song) _ Piano ver. Rui Ruii.mp3","CC/Viator - Rionos Piano Arrangement [Synthesia] Maquia ED_OST.mp3","CC/Violet Evergarden - I Love You - Ep1, 3 OST _ Piano & Orchestral Cover _ PianoPrinceOfAnime.mp3","CC/Violet Evergarden - I Love You.mp3","CC/Violet Evergarden Episode 1 OST_BGM - Rust (Piano Tutorial) [Synthesia].mp3","CC/Violet Evergarden OP Sincerely Piano Full Ver.【HarmonicStudio】.mp3","CC/Violet Evergarden OST Ep 10 - I ll Always Be Here_ Piano & Orchestral Cover _ PianoPrinceOfAnime.mp3","CC/Violet Evergarden OST Ep 10 - I ll Always Be Here_ Piano Tutorial _ PianoPrinceOfAnime.mp3","CC/Violet Evergarden OST EP 14 - LETTERS(Piano & Violin Cover) [BEAUTIFUL].mp3","CC/Violet Evergarden OST EP 7 - LIFE (Piano & Orchestral Cover) [BEAUTIFUL].mp3","CC/VIOLET EVERGARDEN OST.mp3","CC/VIOLET MELODY - Patrik Pietschmann (Original Piano Music).mp3","CC/Vivy - Fluorite Eye s Song OP「Sing My Pleasure」Rus Piano Cover.mp3","CC/Vivy Fluorite Eyes Song「Sing My Pleasure _ Ensemble for Polaris _ Fluorite Eyes Song」Piano Medley.mp3","CC/We Meet Again - Tokyo Ghoul -re [Piano Tutorial] (Synthesia) _ PianoPrinceOfAnime.mp3","CC/weathering with you OST.mp3","CC/Welcome Home (Radical Face) at Shoshone Falls! _ Violin & Piano.mp3","CC/White Album 2- After all Birthday Special For Touma Kazusa [piano].mp3","CC/WILL - Violet Evergarden - The Movie [Piano] _ TRUE.mp3","CC/World End - Code Geass R2 OP 2 [Piano].mp3","CC/Yiruma - Time Forgets.mp3","CC/[Deemo 2.1] Space colony - Mili _ Piano ver. [Rui].mp3","CC/[Deemo] Past the Stargazing Season remix - Mili (Original artist H△G) _ PIANO ver. [Rui].mp3","CC/[FULL] CheerS - Hataraku Saibou ED (Piano Tutorial + Sheets).mp3","CC/[FULL] Niji no Kanata ni_ SAO Alicization Ep. 19 Insert Song _ Piano Cover by HalcyonMusic.mp3","CC/[FULL] Rising of the Shield Hero ED2 _ Atashi ga Tonari ni Iru Uchi ni _ HalcyonMusic Piano Cover.mp3","CC/[League of Legends] 'POP_STARS' - K_DA ft. Madison Beer, (G)I-DLE, Jaira Burns (Piano).mp3","CC/[Piano Cover] Alan Walker - Faded｜瘋狂鋼琴版,你未聽過的Faded.mp3","CC/[Piano Cover] 八三夭 831 - 想見你想見你想見你｜你沒看過的超難還原鋼琴版.mp3","CC/[Violet Evergarden OST] Across the Violet Sky- Episode 4 _ PV 3 BGM (Synthesia Piano Tutorial).mp3","CC/[Violet Evergarden OST] Never Coming Back- Episode 2, 3 & 4 BGM (Piano).mp3","CC/[Violet Evergarden OST] Never Coming Back- Episode 2, 3 & 4 BGM (Synthesia Piano Tutorial).mp3","CC/「Brave Song」Angel Beats! Full ED (Piano Tutorial + Sheets).mp3","CC/【League of Legends】K_DA - POP_STARS MV Cosplay Dance.mp3","CC/【Original Song】Ai no Chiisana Uta - Moona Hoshinova.mp3","CC/【Piano Cover】啟程.mp3","CC/【Piano Cover】鬼滅之刃 EP19 - 炭治郎之歌｜Full Version_完整版｜純鋼琴還原版｜高音質_附譜.mp3","CC/【VOCALOID MMD】Angelite.mp3","CC/一首好聽的日語歌 黑木渚.mp3","CC/少女終末旅行 OST.mp3","CC/白月光與朱砂痣.mp3","CC/米津玄師 Lemon [full].mp3","CC/路過人間.mp3"];
+      var musicStarjp=new Array(musicListjp.length-1);
+		
+	  var musicListkokia=["Kokia/5つ目の季節.mp3","Kokia/Aliens ～宇宙人わかりました～.mp3","Kokia/Amazing Grace.mp3","Kokia/Ave Maria.mp3","Kokia/Ave Maria（bach）.mp3","Kokia/Black is the Colour.mp3","Kokia/bridge.mp3","Kokia/Bye Bye Blackbird.mp3","Kokia/Chiisana Uta.mp3","Kokia/Christmas Medley.mp3","Kokia/cocoro.mp3","Kokia/copy.bat","Kokia/Dance with the wind.mp3","Kokia/Dear Armstrong.mp3","Kokia/DESPERADO.mp3","Kokia/Everlasting.mp3","Kokia/Family Tree.mp3","Kokia/from 16.mp3","Kokia/FURUSATO ～故郷～.mp3","Kokia/Gomenne..mp3","Kokia/Hallelujah.mp3","Kokia/Hello.mp3","Kokia/HOME.mp3","Kokia/HUMANITARIAN.mp3","Kokia/I Found the Love.mp3","Kokia/I Found You.mp3","Kokia/I'LL BE HOME FOR CHRISTMAS.mp3","Kokia/Il mare dei suoni.mp3","Kokia/INFINITY.mp3","Kokia/It Came Upon A Midnight Clear.mp3","Kokia/KOKIA - Wherever I am ～world tour 2009 in Europe～【 予告編 】.mp3","Kokia/KOKIA　20周年記念リリース　告知映像.mp3","Kokia/Lacrima.mp3","Kokia/liar liar ～ロマンティックワルツ.mp3","Kokia/life goes on.mp3","Kokia/list.txt","Kokia/Love Me Tender.mp3","Kokia/Make Sense.mp3","Kokia/moment ～今を生きる～.mp3","Kokia/MOONLIGHT SHADOW.mp3","Kokia/Nanimo Kamo Ga Hoshi Ni Natte.mp3","Kokia/Nipponjin.mp3","Kokia/Odayakana Shizukesa - Jyoka.mp3","Kokia/Over The Rainbow.mp3","Kokia/Recover.mp3","Kokia/Remember the kiss ～Dedicated to “New”NY～.mp3","Kokia/Smile.mp3","Kokia/so sad so bad.mp3","Kokia/Solace ～記憶の森に積もる絵画.mp3","Kokia/something blue & something red.mp3","Kokia/Song of Pocchong - Shizuku No Uta.mp3","Kokia/t0000.txt","Kokia/te a te.mp3","Kokia/temp2xyzxyz.txt","Kokia/Teo Torriatte（Let Us Cling Together）.mp3","Kokia/The Long and Winding Road.mp3","Kokia/Todokimasuyoni.mp3","Kokia/tori.mp3","Kokia/usaghi.mp3","Kokia/vintage love.mp3","Kokia/We Three Kings Of Orient Are.mp3","Kokia/What a wonderful world.mp3","Kokia/Where to go my love（Piano ver.）.mp3","Kokia/why do I sing.mp3","Kokia/you are not alone.mp3","Kokia/[Watashi ni Dekiru Koto].mp3","Kokia/あたたかい場所.mp3","Kokia/ありがとう…（from KOKIA 2007）.mp3","Kokia/いつか誰かを愛した時.mp3","Kokia/うす桃色の季節.mp3","Kokia/おいしい音 yum yum music.mp3","Kokia/おばあちゃん.mp3","Kokia/お化けが怖いなんて.mp3","Kokia/この胸の苦しみが愛おしいほどに生きて.mp3","Kokia/ぬくもり.mp3","Kokia/はじまり.mp3","Kokia/もう一度….mp3","Kokia/やさしくされると　やさしくなれる花.mp3","Kokia/アヒルのココロ.mp3","Kokia/オギャーと産まれて.mp3","Kokia/サルスベリの揺れる頃.mp3","Kokia/ヒトの中にあるもの.mp3","Kokia/ピエロの夢.mp3","Kokia/世界の終わりに.mp3","Kokia/二人の娘.mp3","Kokia/優しい調べ.mp3","Kokia/命の光.mp3","Kokia/夜明け～rebirth.mp3","Kokia/大きな背中.mp3","Kokia/大丈夫 だいじょうぶ.mp3","Kokia/大人のオオカミ.mp3","Kokia/天気がいい ビール飲もう.mp3","Kokia/宇宙が….mp3","Kokia/微笑みを忘れないように.mp3","Kokia/心のロウソク.mp3","Kokia/忘れ物.mp3","Kokia/愛と平和と音楽と.mp3","Kokia/愛はこだまする.mp3","Kokia/戦火の花.mp3","Kokia/旅列車 life train.mp3","Kokia/星屑のヴォカリーズ.mp3","Kokia/映画のような恋でした.mp3","Kokia/本当の音.mp3","Kokia/無力と知った日.mp3","Kokia/祈りにも似た美しい世界.mp3","Kokia/私の中の獣.mp3","Kokia/空でつながってる.mp3","Kokia/笑えない話.mp3","Kokia/罪滅ぼしの歌.mp3","Kokia/聖なる夜に～holly night.mp3","Kokia/花宴.mp3","Kokia/覚醒～OPEN YOUR EYES～.mp3","Kokia/言葉の向こう側.mp3","Kokia/道化.mp3","Kokia/音のアルバム.mp3"];
+      var musicStarkokia=new Array(musicListkokia.length-1);
+	  
+	  var musicListlanlan=["李李鈴蘭/BB88 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Lydia 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Lydia 李李鈴蘭.mp3","李李鈴蘭/STAY 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Stay 自填中文版 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/一首想不通的古風│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/不枉│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/不醉不會│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/他們說我是沒有用的年輕人／李李鈴蘭.mp3","李李鈴蘭/喵電感應│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/囍／李李鈴蘭.mp3","李李鈴蘭/國境之南│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/大喜 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/大風吹 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/天涯│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/太陽│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/好想愛這個世界啊 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/官方回答│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/小丑的品格│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/少年弦│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/年輪說 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/廣寒宮│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/弱水三千│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/念你│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/慢慢等│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/我想我不夠好│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/我當你空氣│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/月牙灣 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/沒關係│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/牽絲戲／李李鈴蘭.mp3","李李鈴蘭/玫瑰少年│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/笑看│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/致姍姍來遲的你│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/花月成雙│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/蠢貨│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/超跑情人夢／李李鈴蘭.mp3","李李鈴蘭/還願│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/醉│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/長安亂／李李鈴蘭.mp3","李李鈴蘭/阿楚姑娘│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/鳥鳥模仿秀首部曲│李李鈴蘭 Linglan Lily.mp3"];
+      var musicStarlanlan=new Array(musicListlanlan.length-1);
+	  
+	  var totallist=[musicListch,musicListen,musicListjp,musicListkokia];
+      var totalstarlist=[musicStarch,musicStaren,musicStarjp,musicStarkokia];
+      var myAudio=document.getElementById("myAudio");
       myAudio.volume=document.getElementById("soundRange").value/100;
       var nowMusicNum=0;
-	  var totalNum=29;
-	  var totalNumen=21;
-	  var totalNumjp=15;
+      var totalNum=musicListch.length-1;
+      var totalNumen=musicListen.length-1;
+      var totalNumjp=musicListjp.length-1;
+	  var totalNumkokia=musicListkokia.length-1;
+	  var totalNumlanlan=musicListlanlan.length-1;
+	  
       //default play first song 
-      $("#myAudio source").attr("src","music/"+(musicList[nowMusicNum])+"");
+      $("#myAudio source").attr("src","music/"+(musicListch[nowMusicNum])+"");
       //display song info
-      $(".musicInfo p:eq(0)").text(musicList[nowMusicNum]);/* 歌曲信息 */
-      $(".musicInfo p:eq(1)").text(musicStar[nowMusicNum]);/* 歌手信息 */
+      $(".musicInfo p:eq(0)").text(musicListch[nowMusicNum]);/* 歌曲信息 */
+      $(".musicInfo p:eq(1)").text(musicStarch[nowMusicNum]);/* 歌手信息 */
 	  //$(".listPlay").trigger("click");
 	  randomTime1=setInterval(function(){
              if(myAudio.currentTime==myAudio.duration){
                  $(".musicNext2").trigger("click");
                }
             },100); 
-	  $(".listtype").change(function() {
+	/*更改listtype*/
+	$(".listtype").change(function() {
 	  myAudio.pause();
          $(".musicStop").hide();
          $(".musicPlay").show();
-	  	  var nameElement = document.getElementById("listtype");
+	  	var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
-		if(listtype=="ch")
+		if(listtype=="ch"||listtype=="en"||listtype=="jp"||listtype=="Kokia"||listtype=="lanlan")
 		{
-		nowMusicNum=0;
-		      //default play first song 
-		$("#myAudio source").attr("src","music/"+(musicList[nowMusicNum])+"");
-		//display song info
-		$(".musicInfo p:eq(0)").text(musicList[nowMusicNum]);/* 歌曲信息 */
-		$(".musicInfo p:eq(1)").text(musicStar[nowMusicNum]);/* 歌手信息 */
-		myAudio.load()
-		}
-		if(listtype=="en")
-		{
-		nowMusicNum=0;
-		      //default play first song 
-		$("#myAudio source").attr("src","music/"+(musicListen[nowMusicNum])+"");
-		//display song info
-		$(".musicInfo p:eq(0)").text(musicListen[nowMusicNum]);/* 歌曲信息 */
-		$(".musicInfo p:eq(1)").text(musicStaren[nowMusicNum]);/* 歌手信息 */
-		myAudio.load();
-		}
-	  	if(listtype=="jp")
-		{
-		nowMusicNum=0;
-		      //default play first song 
-		$("#myAudio source").attr("src","music/"+(musicListjp[nowMusicNum])+"");
-		//display song info
-		$(".musicInfo p:eq(0)").text(musicListjp[nowMusicNum]);/* 歌曲信息 */
-		$(".musicInfo p:eq(1)").text(musicStarjp[nowMusicNum]);/* 歌手信息 */
-		myAudio.load()
+			nowMusicNum=0;
+			var tmplisy;
+			var tmpstar;
+			if(listtype=="ch")
+			{	
+				tmplisy=musicListch;
+				tmpstar=musicStarch;
+			}
+			if(listtype=="en")
+			{	
+				tmplisy=musicListen;
+				tmpstar=musicStaren;
+			}
+			if(listtype=="jp")
+			{	
+				tmplisy=musicListjp;
+				tmpstar=musicStarjp;
+			}
+			if(listtype=="Kokia")
+			{	
+				tmplisy=musicListkokia;
+				tmpstar=musicStarch;
+			}
+			if(listtype=="lanlan")
+			{	
+				tmplisy=musicListch;
+				tmpstar=musicStarch;
+			}
+			$("#myAudio source").attr("src","music/"+(tmplisy[nowMusicNum])+"");
+			//display song info
+			$(".musicInfo p:eq(0)").text(tmplisy[nowMusicNum]);/* 歌曲信息 */
+			$(".musicInfo p:eq(1)").text(tmpstar[nowMusicNum]);/* 歌手信息 */
+			myAudio.load()
 		}
 		if(listtype=="self")
 		{
-         var listLi=$(".collect ul li").length;
-         nowMusicNum=0;
-         if(listLi==0){/* no收藏 */
-		 alert("收藏為空");
-		 nameElement.value="ch";
-		$("#myAudio source").attr("src","music/"+(musicList[nowMusicNum])+"");
-		//display song info
-		$(".musicInfo p:eq(0)").text(musicList[nowMusicNum]);/* 歌曲信息 */
-		$(".musicInfo p:eq(1)").text(musicStar[nowMusicNum]);/* 歌手信息 */
-		myAudio.load()
+			var listLi=$(".collect ul li").length;
+			nowMusicNum=0;
+			if(listLi==0){/* no收藏 */
+			alert("收藏為空");
+			nameElement.value="ch";
+			$("#myAudio source").attr("src","music/"+(musicListch[nowMusicNum])+"");
+			//display song info
+			$(".musicInfo p:eq(0)").text(musicListch[nowMusicNum]);/* 歌曲信息 */
+			$(".musicInfo p:eq(1)").text(musicStarch[nowMusicNum]);/* 歌手信息 */
+			myAudio.load()
          }else{
 
                var musicSrc=$(".collect ul li").eq(nowListliNum).children("a").text();
@@ -485,6 +504,7 @@ label {
          } 
 		}
 		});
+
 	     /* click play button */
       $(".musicPlay").click(function(){
          $(this).hide();
@@ -511,60 +531,72 @@ label {
          if(nowMusicNum<0){
          nowMusicNum=totalNum;
          }
-         $("#myAudio source").attr("src","music/"+(musicList[nowMusicNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicList[nowMusicNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStar[nowMusicNum]);/* 歌手信息 */
+         $("#myAudio source").attr("src","music/"+(musicListch[nowMusicNum])+"");/* 歌曲链接 */
+         $(".musicInfo p:eq(0)").text(musicListch[nowMusicNum]);/* 歌曲信息 */
+         $(".musicInfo p:eq(1)").text(musicStarch[nowMusicNum]);/* 歌手信息 */
          
          myAudio.load();
          $(".musicPlay").trigger("click");
       });
+
       //random按上一首
       $(".musicPrev2").click(function(){
-         var randomNum=Math.random();
+        var randomNum=Math.random();
 		var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
-		if(listtype =="ch")
+		
+		var randomMusicNum;
+        var nowPlayNum;
+		if(listtype=="ch"||listtype=="en"||listtype=="jp"||listtype=="Kokia"||listtype=="lanlan")
 		{
-         var randomMusicNum=randomNum*musicList.length;
-         var nowPlayNum=Math.floor(randomMusicNum);
-         $("#myAudio source").attr("src","music/"+(musicList[nowPlayNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicList[nowPlayNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStar[nowPlayNum]);/* 歌手信息 */      
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
-		if(listtype =="en")
-		{
-         var randomMusicNum=randomNum*musicListen.length;
-         var nowPlayNum=Math.floor(randomMusicNum);
-         $("#myAudio source").attr("src","music/"+(musicListen[nowPlayNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicListen[nowPlayNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStaren[nowPlayNum]);/* 歌手信息 */      
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
-		if(listtype =="jp")
-		{
-         var randomMusicNum=randomNum*musicListjp.length;
-         var nowPlayNum=Math.floor(randomMusicNum);
-         $("#myAudio source").attr("src","music/"+(musicListjp[nowPlayNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicListjp[nowPlayNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStarjp[nowPlayNum]);/* 歌手信息 */      
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
+			var tmplisy;
+			var tmpstar;
+			if(listtype=="ch")
+			{	
+				tmplisy=musicListch;
+				tmpstar=musicStarch;
+			}
+			if(listtype=="en")
+			{	
+				tmplisy=musicListen;
+				tmpstar=musicStaren;
+			}
+			if(listtype=="jp")
+			{	
+				tmplisy=musicListjp;
+				tmpstar=musicStarjp;
+			}
+			if(listtype=="Kokia")
+			{	
+				tmplisy=musicListkokia;
+				tmpstar=musicStarkokia;
+			}
+			if(listtype=="lanlan")
+			{	
+				tmplisy=musicListlanlan;
+				tmpstar=musicStarlanlan;
+			}
+			randomMusicNum=randomNum*tmplisy.length;
+			nowPlayNum=Math.floor(randomMusicNum);
+			$("#myAudio source").attr("src","music/"+(tmplisy[nowPlayNum])+"");
+			//display song info
+			$(".musicInfo p:eq(0)").text(tmplisy[nowPlayNum]);/* 歌曲信息 */
+			$(".musicInfo p:eq(1)").text(tmpstar[nowPlayNum]);/* 歌手信息 */
+			myAudio.load()
+			$(".musicPlay").trigger("click"); 
+		}
 		if(listtype =="self")
 		{
-		 var listLi=$(".collect ul li").length;
-         var randomMusicNum=randomNum*listLi;
-         var nowPlayNum=Math.floor(randomMusicNum);
-          var musicSrc=$(".collect ul li").eq(nowPlayNum).children("a").text();
-         $("#myAudio source").attr("src","music/"+musicSrc+"");
-               
-          $(".musicInfo p:eq(0)").text($(".collect ul li").eq(nowPlayNum).children("a").text())
-         $(".musicInfo p:eq(1)").text($(".collect ul li").eq(nowPlayNum).children("span").text())
-         myAudio.load();
-         $(".musicPlay").trigger("click");
+			 var listLi=$(".collect ul li").length;
+			 var randomMusicNum=randomNum*listLi;
+			 var nowPlayNum=Math.floor(randomMusicNum);
+			  var musicSrc=$(".collect ul li").eq(nowPlayNum).children("a").text();
+			 $("#myAudio source").attr("src","music/"+musicSrc+"");
+				   
+			  $(".musicInfo p:eq(0)").text($(".collect ul li").eq(nowPlayNum).children("a").text())
+			 $(".musicInfo p:eq(1)").text($(".collect ul li").eq(nowPlayNum).children("span").text())
+			 myAudio.load();
+			 $(".musicPlay").trigger("click");
 		 }
       });
       /* 列表循環下的上一首 */
@@ -592,15 +624,15 @@ label {
          myAudio.load();
          $(".musicPlay").trigger("click");
 		 }
-		if(listtype =="cn")
+		if(listtype =="ch")
 		{
             if(nowListliNum<=-1){
                nowListliNum=totalNum;
                }
          
-         $("#myAudio source").attr("src","music/"+(musicList[nowListliNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicList[nowListliNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStar[nowListliNum]);/* 歌手信息 */
+         $("#myAudio source").attr("src","music/"+(musicListch[nowListliNum])+"");/* 歌曲链接 */
+         $(".musicInfo p:eq(0)").text(musicListch[nowListliNum]);/* 歌曲信息 */
+         $(".musicInfo p:eq(1)").text(musicStarch[nowListliNum]);/* 歌手信息 */
          
          myAudio.load();
          $(".musicPlay").trigger("click");
@@ -635,48 +667,55 @@ label {
       
       /* click下一首按紐 */
       $(".musicNext").click(function(){
-         nowMusicNum++;
-         var nameElement = document.getElementById("listtype");
+        nowMusicNum++;
+        var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
-		if(listtype =="ch")
+		if(listtype=="ch"||listtype=="en"||listtype=="jp"||listtype=="Kokia"||listtype=="lanlan")
 		{
-         if(nowMusicNum>totalNum){
-         nowMusicNum=0;
-         }
-         
-         $("#myAudio source").attr("src","music/"+(musicList[nowMusicNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicList[nowMusicNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStar[nowMusicNum]);/* 歌手信息 */
-         
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
-		 if(listtype =="en")
-		{
-         if(nowMusicNum>totalNumen){
-         nowMusicNum=0;
-         }
-         
-         $("#myAudio source").attr("src","music/"+(musicListen[nowMusicNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicListen[nowMusicNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStaren[nowMusicNum]);/* 歌手信息 */
-         
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
-		if(listtype =="jp")
-		{
-         if(nowMusicNum>totalNumjp){
-         nowMusicNum=0;
-         }
-         
-         $("#myAudio source").attr("src","music/"+(musicListjp[nowMusicNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicListjp[nowMusicNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStarjp[nowMusicNum]);/* 歌手信息 */
-         
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
+			var tmplisy;
+			var tmpstar;
+			if(listtype=="ch")
+			{	
+				tmplisy=musicListch;
+				tmpstar=musicStarch;
+				if(nowMusicNum>totalNum)
+					nowMusicNum=0;
+			}
+			if(listtype=="en")
+			{	
+				tmplisy=musicListen;
+				tmpstar=musicStaren;
+				if(nowMusicNum>totalNumen)
+					nowMusicNum=0;
+			}
+			if(listtype=="jp")
+			{	
+				tmplisy=musicListjp;
+				tmpstar=musicStarjp;
+				if(nowMusicNum>totalNumjp)
+					nowMusicNum=0;
+			}
+			if(listtype=="Kokia")
+			{	
+				tmplisy=musicListkokia;
+				tmpstar=musicStarkokia;
+				if(nowMusicNum>totalNumkokia)
+					nowMusicNum=0;
+			}
+			if(listtype=="lanlan")
+			{	
+				tmplisy=musicListlanlan;
+				tmpstar=musicStarlanlan;
+				if(nowMusicNum>totalNumlanlan)
+					nowMusicNum=0;
+			}
+			$("#myAudio source").attr("src","music/"+(tmplisy[nowMusicNum])+"");
+			//display song info
+			$(".musicInfo p:eq(0)").text(tmplisy[nowMusicNum]);/* 歌曲信息 */
+			$(".musicInfo p:eq(1)").text(tmpstar[nowMusicNum]);/* 歌手信息 */
+			myAudio.load()
+			$(".musicPlay").trigger("click"); 
+		}
 		if(listtype =="self")////
 		{
 		var listLi=$(".collect ul li").length;
@@ -695,39 +734,47 @@ label {
       //random next
       
       $(".musicNext2").click(function(){
-         var randomNum=Math.random();
+        var randomNum=Math.random();
 		var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
-		if(listtype =="ch")
+		if(listtype=="ch"||listtype=="en"||listtype=="jp"||listtype=="Kokia"||listtype=="lanlan")
 		{
-         var randomMusicNum=randomNum*musicList.length;
-         var nowPlayNum=Math.floor(randomMusicNum);
-         $("#myAudio source").attr("src","music/"+(musicList[nowPlayNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicList[nowPlayNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStar[nowPlayNum]);/* 歌手信息 */      
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
-		if(listtype =="en")
-		{
-         var randomMusicNum=randomNum*musicListen.length;
-         var nowPlayNum=Math.floor(randomMusicNum);
-         $("#myAudio source").attr("src","music/"+(musicListen[nowPlayNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicListen[nowPlayNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStaren[nowPlayNum]);/* 歌手信息 */      
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
-		if(listtype =="jp")
-		{
-         var randomMusicNum=randomNum*musicListjp.length;
-         var nowPlayNum=Math.floor(randomMusicNum);
-         $("#myAudio source").attr("src","music/"+(musicListjp[nowPlayNum])+"");/* 歌曲链接 */
-         $(".musicInfo p:eq(0)").text(musicListjp[nowPlayNum]);/* 歌曲信息 */
-         $(".musicInfo p:eq(1)").text(musicStarjp[nowPlayNum]);/* 歌手信息 */      
-         myAudio.load();
-         $(".musicPlay").trigger("click");
-		 }
+			var randomMusicNum=randomNum*musicListch.length;
+			var nowPlayNum=Math.floor(randomMusicNum);
+			var tmplisy;
+			var tmpstar;
+			if(listtype=="ch")
+			{	
+				tmplisy=musicListch;
+				tmpstar=musicStarch;
+			}
+			if(listtype=="en")
+			{	
+				tmplisy=musicListen;
+				tmpstar=musicStaren;
+			}
+			if(listtype=="jp")
+			{	
+				tmplisy=musicListjp;
+				tmpstar=musicStarjp;
+			}
+			if(listtype=="Kokia")
+			{	
+				tmplisy=musicListkokia;
+				tmpstar=musicStarkokia;
+			}
+			if(listtype=="lanlan")
+			{	
+				tmplisy=musicListlanlan;
+				tmpstar=musicStarlanlan;
+			}
+			$("#myAudio source").attr("src","music/"+(tmplisy[nowPlayNum])+"");
+			//display song info
+			$(".musicInfo p:eq(0)").text(tmplisy[nowPlayNum]);/* 歌曲信息 */
+			$(".musicInfo p:eq(1)").text(tmpstar[nowPlayNum]);/* 歌手信息 */
+			myAudio.load()
+			$(".musicPlay").trigger("click"); 
+		}
 		if(listtype =="self")
 		{
 		 var listLi=$(".collect ul li").length;
@@ -766,6 +813,52 @@ label {
                $(".musicPlay").trigger("click");
          } 
 		 }
+		 if(listtype=="ch"||listtype=="en"||listtype=="jp"||listtype=="Kokia"||listtype=="lanlan")
+		{
+			var tmplisy;
+			var tmpstar;
+			if(listtype=="ch")
+			{	
+				tmplisy=musicListch;
+				tmpstar=musicStarch;
+				if(nowMusicNum>totalNum)
+					nowMusicNum=0;
+			}
+			if(listtype=="en")
+			{	
+				tmplisy=musicListen;
+				tmpstar=musicStaren;
+				if(nowMusicNum>totalNumen)
+					nowMusicNum=0;
+			}
+			if(listtype=="jp")
+			{	
+				tmplisy=musicListjp;
+				tmpstar=musicStarjp;
+				if(nowMusicNum>totalNumjp)
+					nowMusicNum=0;
+			}
+			if(listtype=="Kokia")
+			{	
+				tmplisy=musicListkokia;
+				tmpstar=musicStarkokia;
+				if(nowMusicNum>totalNumkokia)
+					nowMusicNum=0;
+			}
+			if(listtype=="lanlan")
+			{	
+				tmplisy=musicListlanlan;
+				tmpstar=musicStarlanlan;
+				if(nowMusicNum>totalNumlanlan)
+					nowMusicNum=0;
+			}
+			$("#myAudio source").attr("src","music/"+(tmplisy[nowMusicNum])+"");
+			//display song info
+			$(".musicInfo p:eq(0)").text(tmplisy[nowMusicNum]);/* 歌曲信息 */
+			$(".musicInfo p:eq(1)").text(tmpstar[nowMusicNum]);/* 歌手信息 */
+			myAudio.load()
+			$(".musicPlay").trigger("click"); 
+		}
 		 if(listtype =="ch")
 		{
          var listLi=$(".allShow ul li").length;
@@ -785,7 +878,7 @@ label {
                $(".musicPlay").trigger("click");
          } 
 		 }
-		 		 if(listtype =="en")
+		 if(listtype =="en")
 		{
          var listLi=$(".allShowen ul li").length;
          nowListliNum++;
@@ -846,8 +939,8 @@ label {
             $(".soundRange").toggle();
          })
          
-         /* 改变音量 */
-         $(".soundRange input[type='range']").mousemove(function(){
+		/* 改变音量 */
+		$(".soundRange input[type='range']").mousemove(function(){
              myAudio.volume=document.getElementById("soundRange").value/100;
              if(myAudio.volume==0){
                 $(".musicSound").hide();
@@ -857,13 +950,13 @@ label {
                 $(".musicMute").hide();
              }
          });
-         /* 在静音下改变音量后变为非静音状态 */
-         $(".soundRange input[type='range']").change(function(){
+		/* 在静音下改变音量后变为非静音状态 */
+		$(".soundRange input[type='range']").change(function(){
              myAudio.muted=false;
          })
          
-         /* 收藏音乐 */
-         $(".likeThis").click(function(){
+		/* 收藏音乐 */
+		$(".likeThis").click(function(){
              //$(".musicInfo p:eq(0)").text()   //歌曲信息
              //$(".musicInfo p:eq(1)").text()   //歌手信息
              $(".collect").fadeIn(1000);
@@ -873,29 +966,29 @@ label {
                   $(".DonTLike").animate({"opacity":"1"},400).delay(1500).animate({"opacity":"0"},400);
              }
          });
-         //显示是否删除收藏夹音乐提示
-         $(".likeThis").hover(function(){
+		//显示是否删除收藏夹音乐提示
+		$(".likeThis").hover(function(){
             $(".boxAllshow").text("收藏正在播放music").toggle();
          })
-         /* 删除此音乐 */
-         $(".collect ul li img").live('click',function(){
+		/* 删除此音乐 */
+		$(".collect ul li img").live('click',function(){
             if(window.confirm("確定刪除?")){
                 $(this).parent().remove();
             }
          })
-         //是否删除所有收藏
-         $(".removeAll").click(function(){
+		//是否删除所有收藏
+		$(".removeAll").click(function(){
             if(window.confirm("清空收藏?")){
                 $(".collect ul").empty();
                 $(".collect").fadeOut(1000);
             }
          })
-         //show是否删除收藏
-         $(".removeAll").hover(function(){
+		//show是否删除收藏
+		$(".removeAll").hover(function(){
             $(".boxAllshow").text("刪除收藏").toggle();
          })
-         /* 收藏list click play */
-         $(".collect ul li").live('click',function(){
+		/* 收藏list click play */
+		$(".collect ul li").live('click',function(){
 		 var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
 			nameElement.value="self";
@@ -908,39 +1001,39 @@ label {
             myAudio.load();
             $(".musicPlay").trigger("click");
          });
-         /* 点击显示全部音乐时 */
-         $(".allMusicShow").toggle(function(){
+		/* 点击显示全部音乐时 */
+		$(".allMusicShow").toggle(function(){
             $(".allShow").fadeIn(1000);
          },function(){
             $(".allShow").fadeOut(1000);
          })
-	 $(".allMusicShowen").toggle(function(){
+		$(".allMusicShowen").toggle(function(){
             $(".allShowen").fadeIn(1000);
          },function(){
             $(".allShowen").fadeOut(1000);
          })
-		 	 $(".allMusicShowjp").toggle(function(){
+		$(".allMusicShowjp").toggle(function(){
             $(".allShowjp").fadeIn(1000);
          },function(){
             $(".allShowjp").fadeOut(1000);
          })
          //mouse hover show
-         $(".allMusicShow").hover(function(){
+		$(".allMusicShow").hover(function(){
             $(".boxAllshow").text("顯示中文歌庫").toggle();
          })
-		 $(".allMusicShowen").hover(function(){
+		$(".allMusicShowen").hover(function(){
             $(".boxAllshow").text("顯示英文歌庫").toggle();
          })
-	   		 $(".allMusicShowjp").hover(function(){
+		$(".allMusicShowjp").hover(function(){
             $(".boxAllshow").text("顯示日文歌庫").toggle();
          })
          /* click show ch list */
-         $(".allShow ul li").live('click',function(){
+		$(".allShow ul li").live('click',function(){
 		 		var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
 			nameElement.value="ch";
             var musicSrc=$(this).children("a").text();
-			nowListliNum=musicList.indexOf(musicSrc);
+			nowListliNum=musicListch.indexOf(musicSrc);
             $("#myAudio source").attr("src","music/"+musicSrc+"");
             
             $(".musicInfo p:eq(0)").text($(this).children("a").text())
@@ -951,7 +1044,7 @@ label {
          });
 		 /* click all en list to play */
 		$(".allShowen ul li").live('click',function(){
-				 		var nameElement = document.getElementById("listtype");
+		var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
 			nameElement.value="en";
             var musicSrc=$(this).children("a").text();
@@ -964,7 +1057,7 @@ label {
          });
 		 		 /* click all jp list to play */
 		$(".allShowjp ul li").live('click',function(){
-				 		var nameElement = document.getElementById("listtype");
+		var nameElement = document.getElementById("listtype");
 		var listtype = nameElement.value;
 			nameElement.value="jp";
             var musicSrc=$(this).children("a").text();
@@ -975,7 +1068,7 @@ label {
             myAudio.load();
             $(".musicPlay").trigger("click");
          });
-         for(var i=0;i<totalNum+1;i++){
+        for(var i=0;i<totalNum+1;i++){
                 (function(k){
                     $(".allShow ul").append("<li><i>"+(i+1)+".</i><a>"+totallist[0][i]+"</a><span>"+totalstarlist[0][i]+"</span>")
                 })(i)
@@ -989,7 +1082,7 @@ label {
                 (function(k){
                     $(".allShowjp ul").append("<li><i>"+(i+1)+".</i><a>"+totallist[2][i]+"</a><span>"+totalstarlist[2][i]+"</span>")
                 })(i)
-            }
+        }
 			var randomTime1,listTime;
 /*------------ 点击随机播放    切换到    单曲循环     以及悬浮显示的提醒   ---------------*/
          $(".randomPlay").click(function(){//inTurn
@@ -1083,6 +1176,8 @@ label {
     <option value="ch">中文</option>
     <option value="en">英文</option>
     <option value="jp">日文</option>
+	<option value="Kokia">Kokia</option>
+	<option value="lanlan">李李陵蘭</option>
     <option value="self">收藏</option>
   </select>
 
@@ -1101,7 +1196,7 @@ label {
 		          <div class="musicInfo">
 		                                         歌曲信息:
 		              <p style="background: url('musicBox/musicInfo.png') 0px 3px no-repeat;cursor: default;"></p>
-		              <p style="background: url('musicBox/musicStar.png') 0px 3px no-repeat;cursor: default;"></p>
+		              <p style="background: url('musicBox/musicStarch.png') 0px 3px no-repeat;cursor: default;"></p>
 		          </div>
 		     </div>
 		     <div class="musicBoxFooter">
