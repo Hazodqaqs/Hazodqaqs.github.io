@@ -203,8 +203,8 @@ label {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 300px;
-   width: 280px;
+    max-width: 1000px;
+   width: 1000px;
    height:340px;
    padding:10px 0px;
    background-color: #404040;
@@ -236,7 +236,7 @@ label {
 }
 .collect ul li a{
    display: inline-block;
-   width: 150px;
+   width: 1000px;
    padding-left: 20px;
 }
 .collect ul li:HOVER {
@@ -280,6 +280,46 @@ label {
    margin-left: 15px;
 }
 .allShow ul li:HOVER {
+	background-color: #B6C6D5;
+	color:#a11;
+}
+/* show YC music */
+.allShowYC{
+   padding:10px 0px;
+   position:absolute;
+   right:670px;
+   top:50px;
+   width: 300px;
+   height:483px;
+   background-color: #404040;
+   border-radius: 5px;
+   box-shadow: 1px 2px black;
+   font:16px 'PMingLiU';
+   overflow: auto;
+}
+.allShowYC ul{
+   list-style-type: none;
+}
+
+.allShowYC ul li{
+   height:30px;
+   line-height: 30px;
+   color:#22CF72;
+   border-radius: 12px;
+   cursor: pointer;
+   overflow: hidden;
+   border-bottom: 1px solid #88f; 
+   transition:background 1s linear;
+   }
+.allShowYC ul li a{
+   display: inline-block;
+   width: 160px;
+   padding-left: 10px;
+}
+.allShowYC ul li i{
+   margin-left: 15px;
+}
+.allShowYC ul li:HOVER {
 	background-color: #B6C6D5;
 	color:#a11;
 }
@@ -376,18 +416,6 @@ label {
 	background-color: #B6C6D5;
 	color:#a11;
 }
-.allShowkokia ul{
-   list-style-type: none;
-}
-.allShowlanlan ul{
-   list-style-type: none;
-}
-.allShowJimmy ul{
-   list-style-type: none;
-}
-.allShowYC ul{
-   list-style-type: none;
-}
 
 /* 滚动条样式 */
 /* 设置滚动条的样式 */
@@ -456,6 +484,7 @@ label {
 		var nowMusicNum=0;
 		var nowListliNum=0;
 		var mode=1;
+		var tmp_listtype="ch";
 		//
 		
 		//default play first song 
@@ -484,87 +513,73 @@ label {
 			var music_info_song;
 			var music_info_singer;
 			// (Need Change)
-			if(listtype!="self"){
-				if(listtype=="ch"){	
-					tmplist=musicListch;
-					tmpstar=musicStarch;
-					tmptotalnum=totalNum;
-				}
-				if(listtype=="en"){	
-					tmplist=musicListen;
-					tmpstar=musicStaren;
-					tmptotalnum=totalNumen;
-				}
-				if(listtype=="jp"){	
-					tmplist=musicListjp;
-					tmpstar=musicStarjp;
-					tmptotalnum=totalNumjp;
-				}
-				if(listtype=="Kokia"){	
-					tmplist=musicListkokia;
-					tmpstar=musicStarkokia;
-					tmptotalnum=totalNumkokia;
-				}
-				if(listtype=="lanlan"){	
-					tmplist=musicListlanlan;
-					tmpstar=musicStarlanlan;
-					tmptotalnum=totalNumlanlan;
-				}
-				if(listtype=="Jimmy"){	
-					tmplist=musicListJimmy;
-					tmpstar=musicStarJimmy;
-					tmptotalnum=totalNumJimmy;
-				}
-				if(listtype=="YC"){	
-					tmplist=musicListYC;
-					tmpstar=musicStarYC;
-					tmptotalnum=totalNumYC;
-				}
-				if(nowMusicNum>tmptotalnum)
-					nowMusicNum=0;
-				if(nowMusicNum<=-1)
-					nowMusicNum=tmptotalnum;
-				if(nowListliNum>tmptotalnum)
-					nowListliNum=0;
-				if(nowListliNum<=-1)
-					nowListliNum=tmptotalnum;
-				
-				if(mode==1){
-					randomNum= Math.random();
-					randomMusicNum=randomNum*tmplist.length;
-					nowMusicNum=Math.floor(randomMusicNum);
-				}
-				musicSrc="music/"+(tmplist[nowMusicNum])+"";
-				music_info_song=tmplist[nowMusicNum];
-				music_info_singer=tmpstar[nowMusicNum];
-				
+			if(listtype=="self"){
+				listtype=tmp_listtype;
 			}
-			else{
-				var listLi=$(".collect ul li").length;
+			if(listtype=="ch"){	
+				tmplist=musicListch;
+				tmpstar=musicStarch;
+				tmptotalnum=totalNum;
+				tmp_listtype="ch";
+			}
+			if(listtype=="en"){	
+				tmplist=musicListen;
+				tmpstar=musicStaren;
+				tmptotalnum=totalNumen;
+				tmp_listtype="en";
+			}
+			if(listtype=="jp"){	
+				tmplist=musicListjp;
+				tmpstar=musicStarjp;
+				tmptotalnum=totalNumjp;
+				tmp_listtype="jp";
+			}
+			if(listtype=="Kokia"){	
+				tmplist=musicListkokia;
+				tmpstar=musicStarkokia;
+				tmptotalnum=totalNumkokia;
+				tmp_listtype="Kokia";
+			}
+			if(listtype=="lanlan"){	
+				tmplist=musicListlanlan;
+				tmpstar=musicStarlanlan;
+				tmptotalnum=totalNumlanlan;
+				tmp_listtype="lanlan";
+			}
+			if(listtype=="Jimmy"){	
+				tmplist=musicListJimmy;
+				tmpstar=musicStarJimmy;
+				tmptotalnum=totalNumJimmy;
+				tmp_listtype="Jimmy";
+			}
+			if(listtype=="YC"){	
+				tmplist=musicListYC;
+				tmpstar=musicStarYC;
+				tmptotalnum=totalNumYC;
+				tmp_listtype="YC";
+			}
+			if(listtype=="collect")
+			if(nowMusicNum>tmptotalnum)
 				nowMusicNum=0;
-				if(listLi==0){/* no收藏 */
-					alert("收藏為空");
-					nameElement.value="ch";
-					tmplist=musicListch;
-					tmpstar=musicStarch;
-				}
-				else{
-					if(nowMusicNum>tmptotalnum)
-						nowMusicNum=0;
-					if(nowListliNum<=-1)
-						nowListliNum=tmptotalnum;
-					if(nowListliNum>tmptotalnum)
-						nowListliNum=0;
-					if(mode==1){
-						randomMusicNum=Math.random()*tmplist.length;
-						nowMusicNum=Math.floor(randomMusicNum);
-					}
-					var tmp_musicSrc=$(".collect ul li").eq(nowListliNum).children("a").text();
-					musicSrc = "music/"+tmp_musicSrc+"";
-					music_info_song=$(".collect ul li").eq(musicSrc).children("a").text();
-					music_info_singer=$(".collect ul li").eq(musicSrc).children("span").text();
-				}
+			if(nowMusicNum<=-1)
+				nowMusicNum=tmptotalnum;
+			if(nowListliNum>tmptotalnum)
+				nowListliNum=0;
+			if(nowListliNum<=-1)
+				nowListliNum=tmptotalnum;
+			
+			if(mode==1){
+				randomNum= Math.random();
+				randomMusicNum=randomNum*tmplist.length;
+				nowMusicNum=Math.floor(randomMusicNum);
 			}
+			musicSrc="music/"+(tmplist[nowMusicNum])+"";
+			music_info_song=tmplist[nowMusicNum];
+			music_info_singer=tmpstar[nowMusicNum];
+			
+			// ADD music to collect
+			$(".collect ul").empty();
+			for(var i=0;i<totalNum+1;i++){(function(k){$(".collect ul").append("<li><i>"+(i+1)+".</i><a>"+tmplist[i]+"</a><span>"+tmpstar[i]+"</span>")})(i)}
 			$("#myAudio source").attr("src",musicSrc);
 			//display song info
 			$(".musicInfo p:eq(0)").text(music_info_song);/* 歌曲信息 */
@@ -725,21 +740,9 @@ label {
 			$(".musicPlay").trigger("click");
          });
 		/* 点击显示全部音乐时 */
-		$(".allMusicShow").toggle(function(){
-            $(".allShow").fadeIn(1000);
-         },function(){
-            $(".allShow").fadeOut(1000);
-         })
-		$(".allMusicShowen").toggle(function(){
-            $(".allShowen").fadeIn(1000);
-         },function(){
-            $(".allShowen").fadeOut(1000);
-         })
-		$(".allMusicShowjp").toggle(function(){
-            $(".allShowjp").fadeIn(1000);
-         },function(){
-            $(".allShowjp").fadeOut(1000);
-         })
+		$(".allMusicShow").toggle(function(){$(".allShow").fadeIn(1000);},function(){$(".allShow").fadeOut(1000);})
+		$(".allMusicShowen").toggle(function(){$(".allShowen").fadeIn(1000);},function(){$(".allShowen").fadeOut(1000);})
+		$(".allMusicShowjp").toggle(function(){$(".allShowjp").fadeIn(1000);},function(){$(".allShowjp").fadeOut(1000);})
          //mouse hover show
 		$(".allMusicShow").hover(function(){
             $(".boxAllshow").text("顯示中文歌庫").toggle();
@@ -750,13 +753,14 @@ label {
 		$(".allMusicShowjp").hover(function(){
             $(".boxAllshow").text("顯示日文歌庫").toggle();
          })
-         /* click show ch list */
+        /* click show ch list */
 		$(".allShow ul li").live('click',function(){
 			var nameElement = document.getElementById("listtype");
 			var listtype = nameElement.value;
 			nameElement.value="ch";
 			var musicSrc=$(this).children("a").text();
 			nowListliNum=musicListch.indexOf(musicSrc);
+			
 			$("#myAudio source").attr("src","music/"+musicSrc+"");
 				
 			$(".musicInfo p:eq(0)").text($(this).children("a").text())
@@ -765,7 +769,7 @@ label {
 			myAudio.load();
 			$(".musicPlay").trigger("click");
 		});
-		 /* click all en list to play */
+		/* click all en list to play */
 		$(".allShowen ul li").live('click',function(){
 			var nameElement = document.getElementById("listtype");
 			var listtype = nameElement.value;
@@ -778,7 +782,7 @@ label {
 			myAudio.load();
 			$(".musicPlay").trigger("click");
          });
-		 		 /* click all jp list to play */
+		/* click all jp list to play */
 		$(".allShowjp ul li").live('click',function(){
 		nameElement.value="jp";
 		var musicSrc=$(this).children("a").text();
@@ -789,6 +793,18 @@ label {
 		myAudio.load();
 		$(".musicPlay").trigger("click");
          });
+		/* click all YC list to play */
+		$(".allShowYC ul li").live('click',function(){
+		nameElement.value="YC";
+		var musicSrc=$(this).children("a").text();
+		nowListliNum=musicListYC.indexOf(musicSrc);
+		$("#myAudio source").attr("src","music/"+musicSrc+"");           
+		$(".musicInfo p:eq(0)").text($(this).children("a").text())
+		$(".musicInfo p:eq(1)").text($(this).children("span").text())
+		myAudio.load();
+		$(".musicPlay").trigger("click");
+         });
+		 
 		// (Need Change)
 		for(var i=0;i<totalNum+1;i++){
 			(function(k){
@@ -927,7 +943,6 @@ label {
 				<option value="self">收藏</option>
 			 </select>
 
-
 		    <button class="allMusicShow" style="background:url('musicBox/send.png') center no-repeat;"></button>
 			<button class="allMusicShowen" style="background:url('musicBox/send2.png') center no-repeat;"></button>
 			<button class="allMusicShowjp" style="background:url('musicBox/send3.png') center no-repeat;"></button>
@@ -968,6 +983,7 @@ label {
 		                    <input type="range" id="soundRange">
 		               </div>
 		     </div>
+		<!-- (Need Change) -->
 		</div>
 		<div class="collect" style="display: none;">
 			<ul>
@@ -982,6 +998,22 @@ label {
 		   </ul>
 		</div>
 		<div class="allShowjp"style="display: none;">
+		   <ul>
+		   </ul>
+		</div>
+		<div class="allShowKokia"style="display: none;">
+		   <ul>
+		   </ul>
+		</div>
+		<div class="allShowlanlan"style="display: none;">
+		   <ul>
+		   </ul>
+		</div>
+		<div class="allShowJimmy"style="display: none;">
+		   <ul>
+		   </ul>
+		</div>
+		<div class="allShowYC"style="display: none;">
 		   <ul>
 		   </ul>
 		</div>
