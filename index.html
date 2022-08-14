@@ -442,7 +442,7 @@ label {
 <script type="text/javascript">
 	$(function(){ 
 		/*歌單*/
-		// (Need Change)
+		// #region (Need Change)
 		var musicListch=["你的行李.mp3","飛鳥與蟬.mp3","星辰大海.mp3","四季予你.mp3","天黑請閉眼.mp3","太空人.mp3","不為誰而作的歌.mp3","你,好不好.mp3","晚安晚安.mp3","句號.mp3","歌頌者.mp3","我很好騙.mp3","家家酒.mp3","巴別塔慶典.mp3","年輪說.mp3","怎麼了.mp3","愛人錯過.mp3","愛情怎麼了嗎.mp3","我好嗎.mp3","歌頌者.mp3","炙愛.mp3","煙幕.mp3","直到我遇見了你.mp3","說好不哭.mp3","路過人間.mp3","連名帶姓.mp3","摩天動物園.mp3","魚仔.mp3","葉子.mp3","寂寞邊界.mp3","CC/【纯享版】黄霄雲挑战《你的答案》 超稳高音听得太过瘾 《歌手·当打之年》Singer 2020【湖南卫视官方HD】.mp3","CC/Imagine Dragons x J.I.D - Enemy (from the series Arcane League of Legends).mp3","CC/《孤勇者》Cover by 李欣庭 Isteen｜即興ONE TAKE未修音.mp3","CC/封茗囧菌-孤勇者  推薦程度★★★★★  #卯足了勁兒的在大聲唱歌了.mp3","CC/孤勇者 Cover Yun  Pocats Studio.mp3","CC/孤勇者 飞鸟乐团十国语言翻唱.mp3","CC/孤勇者 花丸はれる【Arcane 英雄聯盟：雙城之戰】.mp3","CC/《孤勇者》馮提莫：誰說站在光里的才是英雄  [CC字幕].mp3","CC/《孤勇者》前方核能！谁说女生不适合唱这歌？.mp3","CC/孤勇者-祖娅纳惜  高燃女声，年度最佳翻唱.mp3","CC/路過人間.mp3","CC/白月光與朱砂痣.mp3","李李鈴蘭/BB88 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Lydia 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Lydia 李李鈴蘭.mp3","李李鈴蘭/STAY 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/Stay 自填中文版 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/一首想不通的古風│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/不枉│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/不醉不會│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/他們說我是沒有用的年輕人／李李鈴蘭.mp3","李李鈴蘭/喵電感應│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/囍／李李鈴蘭.mp3","李李鈴蘭/國境之南│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/大喜 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/大風吹 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/天涯│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/太陽│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/好想愛這個世界啊 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/官方回答│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/小丑的品格│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/少年弦│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/年輪說 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/廣寒宮│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/弱水三千│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/念你│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/慢慢等│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/我想我不夠好│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/我當你空氣│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/月牙灣 李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/沒關係│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/牽絲戲／李李鈴蘭.mp3","李李鈴蘭/玫瑰少年│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/笑看│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/致姍姍來遲的你│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/花月成雙│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/蠢貨│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/超跑情人夢／李李鈴蘭.mp3","李李鈴蘭/還願│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/醉│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/長安亂／李李鈴蘭.mp3","李李鈴蘭/阿楚姑娘│李李鈴蘭 Linglan Lily.mp3","李李鈴蘭/鳥鳥模仿秀首部曲│李李鈴蘭 Linglan Lily.mp3"]
 		var musicStarch=new Array(musicListch.length-1);
 		
@@ -479,6 +479,8 @@ label {
 		var musicListDorian=["Dorian/【EDM中文原創曲】相伴前行【朵璃安DorianX @琳琪玥雪《 Kumaluki 》。Channel 】獻給所有為了夢想，彼此相伴、一同前行的人們.mp3","Dorian/【中日文合唱版】一花依世界【台灣Vtuber Cover】By β虎妮、朵璃安、周默、杏仁ミル.mp3","Dorian/【原創歌曲】盼你【朵璃安Dorian】禪風情詩&EDM 台灣Vtuber.mp3","Dorian/【朵璃安】 野子 【台灣Vtuber Cover】我要握緊手中堅定 卻又飄散的勇氣.mp3","Dorian/【朵璃安】Listen To The Forest【台灣Vtuber Cover】北投女巫 梁彥慈角色曲.mp3","Dorian/【朵璃安】フクロウ ～フクロウが知らせる客が来たと～【台灣Vtuber Cover】.mp3","Dorian/【朵璃安】不老夢 【台灣Vtuber Cover】於萬人中萬幸得以相逢.mp3","Dorian/【朵璃安】人間不值得【台灣Vtuber Cover】時不時回頭看看 百味是人間.mp3","Dorian/【朵璃安】吹滅小山河【台灣Vtuber Cover】何須問生平長短 應問何人相伴.mp3","Dorian/【朵璃安】天下局【台灣Vtuber Cover】 虞姬隔江 猶把楚聲唱 忘川風華錄.mp3","Dorian/【朵璃安】孤勇者【台灣Vtuber Cover】致那黑夜中的嗚咽與怒吼 誰說站在光裡的才算英雄 英雄聯盟動畫影集《奧術》（英雄聯盟：雙城之戰）中文主題曲.mp3","Dorian/【朵璃安】我們一樣可惜【台灣Vtuber Cover】誰不是繞了點路才能站在這裡.mp3","Dorian/【朵璃安】昔言 【台灣Vtuber Cover】戲裡戲外度一生 多情扮作無情演.mp3","Dorian/【朵璃安】星辰大海【台灣Vtuber Cover】遙遙微光 與我同行 盛開在黎明.mp3","Dorian/【朵璃安】星願【台灣Vtuber Cover】年末感謝曲！願歌聲唱出你我心願.mp3","Dorian/【朵璃安】月落【台灣Vtuber Cover】祝大家中秋佳節愉快！.mp3","Dorian/【朵璃安】杰哥不要 the 音樂劇【台灣Vtuber Cover】.mp3","Dorian/【朵璃安】海之禮讚【台灣Vtuber Cover】無邊海洋 何處深藏 她沉眠的殿堂 時之歌Project.mp3","Dorian/【朵璃安】漂流【台灣Vtuber Cover】變回本體回海裡唱歌啦~.mp3","Dorian/【朵璃安】熱愛105°C的你【台灣Vtuber Cover】.mp3","Dorian/【朵璃安】癢【台灣Vtuber Cover】她是悠悠一抹斜陽 多想多想有誰懂得欣賞.mp3","Dorian/【朵璃安】短歌行【台灣Vtuber Cover】白日何短短 百年苦易滿 長安十二時辰.mp3","Dorian/【朵璃安】聲聲慢 【台灣Vtuber Cover】你若又疲倦了 聲聲聲慢不再流浪.mp3","Dorian/【朵璃安】花月成雙【台灣Vtuber Cover】新春愉快！與君聲聲唱 是人間最值得模樣.mp3","Dorian/【朵璃安】萬千花蕊慈母悲哀【台灣Vtuber Cover】.mp3","Dorian/【朵璃安】血腥愛情故事【台灣Vtuber Cover】獻上千刀萬剮的濃烈愛意.mp3","Dorian/【朵璃安】赤伶【台灣Vtuber Cover】情字難落墨 她唱須以血來和.mp3","Dorian/【朵璃安】身騎白馬 【片段 Cover】.mp3","Dorian/【朵璃安】霽夜茶【台灣Vtuber Cover】霽夜我獨醉這杯茶 清風不還家.mp3","Dorian/【迷因短片原創曲（？）】水母斷頭【朵璃安Dorian】.mp3"];
 		var musicStarDorian=new Array(musicListDorian.length-1); 
 		
+		// #endregion
+		
 		//var fs = require('fs');
 		//var musicListTest=fs.readdirSync('Dorian/');
 		
@@ -505,6 +507,7 @@ label {
 		var randomMusicNum;
         var nowPlayNum;
 		var nowMusicNum=0;
+		var nowplaySongname;
 		var NextOrPre=0;
 		var mode=1;
 		var tmp_listtype="ch";
@@ -535,7 +538,7 @@ label {
 			var musicSrc;
 			var music_info_song;
 			var music_info_singer;
-			// (Need Change)
+			// #region (Need Change)
 			if(listtype=="self"){
 				listtype=tmp_listtype;
 			}
@@ -611,7 +614,10 @@ label {
 				tmptotalnum=totalNumDorian;
 				tmp_listtype="Dorian";
 			}
+			// #endregion
 			
+			nowMusicNum = tmplist.indexOf(nowplaySongname)
+			nowMusicNum = nowMusicNum+NextOrPre
 			//if(listtype=="collect")
 			if(nowMusicNum>tmptotalnum)
 				nowMusicNum=0;
@@ -623,6 +629,7 @@ label {
 				randomMusicNum=randomNum*tmplist.length;
 				nowMusicNum=Math.floor(randomMusicNum);
 			}
+			nowplaySongname = tmplist[nowMusicNum];
 			musicSrc="music/"+(tmplist[nowMusicNum])+"";
 			music_info_song=tmplist[nowMusicNum];
 			music_info_singer=tmpstar[nowMusicNum];
@@ -781,11 +788,10 @@ label {
 			var listtype = nameElement.value;
 			nameElement.value="self";
 			var musicSrc=$(this).children("a").text();
+			nowplaySongname = musicSrc;
 			$("#myAudio source").attr("src","music/"+musicSrc+"");
-			
 			$(".musicInfo p:eq(0)").text($(this).children("a").text())
 			$(".musicInfo p:eq(1)").text($(this).children("span").text())
-			
 			myAudio.load();
 			$(".musicPlay").trigger("click");
          });
@@ -855,7 +861,7 @@ label {
 		$(".musicPlay").trigger("click");
          });
 		 
-		// (Need Change)
+		// #region (Need Change)
 		for(var i=0;i<totalNum+1;i++){
 			(function(k){
 				$(".allShow ul").append("<li><i>"+(i+1)+".</i><a>"+musicListch[i]+"</a><span>"+musicStarch[i]+"</span>")
@@ -916,6 +922,7 @@ label {
                     $(".allShowDorian ul").append("<li><i>"+(i+1)+".</i><a>"+musicListDorian[i]+"</a><span>"+musicStarDorian[i]+"</span>")
                 })(i)
         }
+		// #endregion
 		
 		var randomTime1,listTime;
 /*------------ 点击随机播放    切换到    单曲循环     以及悬浮显示的提醒   ---------------*/
@@ -1001,37 +1008,36 @@ label {
 		</div>
 		<div class="musicBox" style="opacity:0.9;">
 		    <div class="musicHeader">
-		          <div class="boxAllshow" style="display: none;white-space: nowrap;">
+		        <div class="boxAllshow" style="display: none;white-space: nowrap;">
 		                                            
-		          </div>
+		        </div>
 			
-			<!-- (Need Change) -->
-			<label for="playlisttype">play list</label>
-			<select class="listtype" id="listtype">
-				<option value="ch">中文</option>
-				<option value="en">英文</option>
-				<option value="jp">日文</option>
-				<option value="Kokia">Kokia</option>
-				<option value="lanlan">李李陵蘭</option>
-				<option value="Jimmy">Jimmy Kao</option>
-				<option value="YC">淯翔哥的歌單</option>
-				<option value="831">八三夭</option>
-				<option value="ASMR">ASMR</option>
-				<option value="Tido Kang">Tido Kang</option>
-				<option value="SYM">SYM</option>
-				<option value="Dorian">Dorian</option>
-				<option value="self">收藏</option>
-			 </select>
-
-		    <button class="allMusicShow" style="background:url('musicBox/send.png') center no-repeat;"></button>
-			<button class="allMusicShowen" style="background:url('musicBox/send2.png') center no-repeat;"></button>
-			<button class="allMusicShowjp" style="background:url('musicBox/send3.png') center no-repeat;"></button>
-			<button class="removeAll" style="background: url('musicBox/remove.png') center no-repeat;"></button>
-		    <button class="likeThis" style="background:url('musicBox/like.png') center no-repeat;"></button>
-		    <div class="DonTLike" style="opacity:0;z-index: 10;">
+				<!-- (Need Change) -->
+				<label for="playlisttype">play list</label>
+				<select class="listtype" id="listtype">
+					<option value="ch">中文</option>
+					<option value="en">英文</option>
+					<option value="jp">日文</option>
+					<option value="Kokia">Kokia</option>
+					<option value="lanlan">李李陵蘭</option>
+					<option value="Jimmy">Jimmy Kao</option>
+					<option value="YC">淯翔哥的歌單</option>
+					<option value="831">八三夭</option>
+					<option value="ASMR">ASMR</option>
+					<option value="Tido Kang">Tido Kang</option>
+					<option value="SYM">SYM</option>
+					<option value="Dorian">Dorian</option>
+					<option value="self">收藏</option>
+				 </select>
+				<button class="allMusicShow" style="background:url('musicBox/send.png') center no-repeat;"></button>
+				<button class="allMusicShowen" style="background:url('musicBox/send2.png') center no-repeat;"></button>
+				<button class="allMusicShowjp" style="background:url('musicBox/send3.png') center no-repeat;"></button>
+				<button class="removeAll" style="background: url('musicBox/remove.png') center no-repeat;"></button>
+				<button class="likeThis" style="background:url('musicBox/like.png') center no-repeat;"></button>
+				<div class="DonTLike" style="opacity:0;z-index: 10;">
 		                                              已取消該收藏...
-		          </div>
-		    </div>
+				</div>
+			</div>
 		    <div class="musicBoxBody">
 		        <img src="musicBox/personal.png" width="70px" height="70px">
 		        <div class="musicInfo">
@@ -1063,60 +1069,61 @@ label {
 		                    <input type="range" id="soundRange">
 		               </div>
 		     </div>
-		<!-- (Need Change) -->
 		</div>
-		<div class="collect" style="display: none;">
-			<ul>
-			</ul>
-		</div>
-		<div class="allShow" style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowen"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowjp"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowKokia"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowlanlan"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowJimmy"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowYC"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShow831"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowASMR"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowTido_Kang"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowSYM"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
-		<div class="allShowDorian"style="display: none;">
-		   <ul>
-		   </ul>
-		</div>
+		<div> <!--Need Change -->
+			<div class="collect" style="display: none;">
+				<ul>
+				</ul>
+			</div>
+			<div class="allShow" style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowen"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowjp"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowKokia"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowlanlan"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowJimmy"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowYC"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShow831"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowASMR"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowTido_Kang"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowSYM"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+			<div class="allShowDorian"style="display: none;">
+			   <ul>
+			   </ul>
+			</div>
+		</div><!--#endregion -->
 	</div>
 </body>
 </html>
