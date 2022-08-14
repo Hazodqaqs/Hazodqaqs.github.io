@@ -148,7 +148,7 @@ label {
 .soundRange{
    position:relative;
    top:-58px;
-   left:840px;
+   left:1140px; /*Can change, volume length*/
    
    width: 90px; 
    height:20px;
@@ -505,7 +505,7 @@ label {
 		var randomMusicNum;
         var nowPlayNum;
 		var nowMusicNum=0;
-		var nowListliNum=0;
+		var NextOrPre=0;
 		var mode=1;
 		var tmp_listtype="ch";
 		//
@@ -612,15 +612,11 @@ label {
 				tmp_listtype="Dorian";
 			}
 			
-			if(listtype=="collect")
+			//if(listtype=="collect")
 			if(nowMusicNum>tmptotalnum)
 				nowMusicNum=0;
 			if(nowMusicNum<=-1)
 				nowMusicNum=tmptotalnum;
-			if(nowListliNum>tmptotalnum)
-				nowListliNum=0;
-			if(nowListliNum<=-1)
-				nowListliNum=tmptotalnum;
 			
 			if(mode==1){
 				randomNum= Math.random();
@@ -663,8 +659,8 @@ label {
 		
 		/* 按上一首 */
 		$(".musicPrev").click(function(){
-			nowListliNum--;
 			nowMusicNum--;
+			NextOrPre=-1;
 			mode=0;
 			change_listtype();
 			$(".musicPlay").trigger("click");
@@ -678,8 +674,8 @@ label {
 		});
 		/* 列表循環下的上一首 */
 		$(".musicPrev3").click(function(){
-			nowListliNum--;
 			nowMusicNum--;
+			NextOrPre=-1;
 			mode=0;
 			change_listtype();
 			$(".musicPlay").trigger("click");
@@ -687,8 +683,8 @@ label {
 		
 		/* click下一首按紐 */
 		$(".musicNext").click(function(){
-        	nowListliNum++;
 			nowMusicNum++;
+			NextOrPre=1;
 			mode=0;
 			change_listtype();
 			$(".musicPlay").trigger("click");
@@ -703,8 +699,8 @@ label {
 		
 		//list next
 		$(".musicNext3").click(function(){
-			nowListliNum++;
 			nowMusicNum++;
+			NextOrPre=1;
 			mode=0;
 			change_listtype();
 			$(".musicPlay").trigger("click");
