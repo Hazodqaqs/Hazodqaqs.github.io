@@ -1,0 +1,64 @@
+ Volume in drive D is 新增磁碟區
+ Volume Serial Number is 62CE-7A76
+
+ Directory of D:\GIT\Hazodcc.github.io\music\Mili
+
+2022/08/15  上午 12:22    <DIR>          .
+2022/08/15  上午 12:22    <DIR>          ..
+2022/04/29  上午 12:48               112 copy file.bat
+2022/08/15  上午 12:22                 0 temp2xyzxyz.txt
+2022/08/14  上午 11:37         6,777,101 [Mili] A Nocturne for All.mp3
+2022/08/14  上午 11:37         7,052,621 [Mili] A Turtle's Heart - Key Ingredient ver..mp3
+2022/08/14  上午 11:37         7,272,122 [Mili] And Then is Heard No More.mp3
+2022/08/14  上午 11:39        10,315,549 [Mili] Bento Box Bivouac.mp3
+2022/08/14  上午 11:36         8,597,685 [Mili] Birthday Kid.mp3
+2022/08/14  上午 11:37         8,322,677 [Mili] Bulbel.mp3
+2022/08/14  上午 11:36        11,555,995 [Mili] Camelia.mp3
+2022/08/14  上午 11:36         9,545,392 [Mili] Children of the City.mp3
+2022/08/14  上午 11:40         9,723,333 [Mili] Chocological - Key Ingredient ver..mp3
+2022/08/14  上午 11:39         9,210,784 [Mili] Flowerworks.mp3
+2022/08/14  上午 11:36         7,465,072 [Mili] From a Place of Love.mp3
+2022/08/14  上午 11:35         8,933,868 [Mili] Ga1ahad and Scientific Witchery.mp3
+2022/08/14  上午 11:40         7,647,408 [Mili] GIVE ME RICE.mp3
+2022/08/14  上午 11:36         5,978,014 [Mili] Gone Angels.mp3
+2022/08/14  上午 11:39         7,618,045 [Mili] Harmonious.mp3
+2022/08/14  上午 11:35         9,225,892 [Mili] In Hell We Live, Lament.mp3
+2022/08/14  上午 11:37         9,760,380 [Mili] Iron Lotus.mp3
+2022/08/14  上午 11:39         6,900,925 [Mili] Lemonade - Key Ingredient ver..mp3
+2022/08/14  上午 11:38         7,718,833 [Mili] Lily.mp3
+2022/08/14  上午 11:39         2,675,965 [Mili] Main Theme.mp3
+2022/08/14  上午 11:38        10,322,407 [Mili] Mirror Mirror.mp3
+2022/08/14  上午 11:38         7,283,196 [Mili] Mitsubachi.mp3
+2022/08/14  上午 11:35         9,507,067 [Mili] Mortal With You.mp3
+2022/08/14  上午 11:37         9,369,119 [Mili] Mushrooms.mp3
+2022/08/14  上午 11:38         7,849,096 [Mili] My Creator.mp3
+2022/08/14  上午 11:38         7,429,842 [Mili] Opium.mp3
+2022/08/14  上午 11:38         5,245,566 [Mili] Painful Death for the Lactose Intolerant.mp3
+2022/08/14  上午 11:35         8,528,361 [Mili] Paper Bouquet.mp3
+2022/08/14  上午 11:36         5,671,746 [Mili] Red Dahlia.mp3
+2022/08/14  上午 11:35         8,991,889 [Mili] Rightfully (TV Animation Goblin Slayer opening).mp3
+2022/08/14  上午 11:36         8,769,654 [Mili] RTRT.mp3
+2022/08/14  上午 11:39         5,973,573 [Mili] Rubber Human - Key Ingredient ver..mp3
+2022/08/14  上午 11:40         8,489,003 [Mili] Sacramentum_Unaccompanied Hymn for Torino.mp3
+2022/08/14  上午 11:37         9,944,798 [Mili] Salt, Pepper, Birds, and the Thought Police.mp3
+2022/08/14  上午 11:38        13,094,658 [Mili] Skin-Deep Comedy.mp3
+2022/08/14  上午 11:39         7,049,644 [Mili] Sloth.mp3
+2022/08/14  上午 11:37         8,646,192 [Mili] Static.mp3
+2022/08/14  上午 11:35         7,178,984 [Mili] String Theocracy.mp3
+2022/08/14  上午 11:36         7,204,327 [Mili] Summoning 101.mp3
+2022/08/14  上午 11:36        14,572,826 [Mili] sustain++;.mp3
+2022/08/14  上午 11:38         8,064,269 [Mili] Though Our Paths May Diverge (Goblin Slayer Episode Seven inserted song).mp3
+2022/08/14  上午 11:37         5,287,774 [Mili] Utopiosphere -Platonism-.mp3
+2022/08/14  上午 11:39         5,426,545 [Mili] Utopiosphere.mp3
+2022/08/14  上午 11:36         9,341,447 [Mili] Victim.mp3
+2022/08/14  上午 11:37        12,176,203 [Mili] Vitamins.mp3
+2022/08/14  上午 11:39         8,379,423 [Mili] With a Billion Worldful of _3.mp3
+2022/08/14  上午 11:35         6,706,069 [Mili] Within (Goblin Slayer Episode Twelve inserted song).mp3
+2022/08/14  上午 11:35         8,661,206 [Mili] world.execute (me) ;.mp3
+2022/08/14  上午 11:39        11,901,552 [Mili] world.search (you) ;.mp3
+2022/08/14  上午 11:39        12,047,734 [Mili] 雨と体液と匂い.mp3
+              52 File(s)    421,411,943 bytes
+
+     Total Files Listed:
+              52 File(s)    421,411,943 bytes
+               2 Dir(s)  151,694,761,984 bytes free
