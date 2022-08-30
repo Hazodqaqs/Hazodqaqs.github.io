@@ -3,21 +3,19 @@
 
  Directory of D:\GIT\Hazodcc.github.io\music\李李鈴蘭
 
-2022/04/29  上午 12:51    <DIR>          .
-2022/04/29  上午 12:51    <DIR>          ..
+2022/08/31  上午 12:41    <DIR>          .
+2022/08/31  上午 12:41    <DIR>          ..
 2021/10/30  下午 11:06         2,971,077 BB88 李李鈴蘭 Linglan Lily.mp3
 2022/04/29  上午 12:48               112 copy file.bat
 2021/10/30  下午 11:06         3,611,469 Lydia 李李鈴蘭 Linglan Lily.mp3
 2021/10/30  下午 11:06         4,243,029 Lydia 李李鈴蘭.mp3
 2021/10/30  下午 11:06         2,070,093 STAY 李李鈴蘭 Linglan Lily.mp3
 2021/10/30  下午 11:06         2,063,013 Stay 自填中文版 李李鈴蘭 Linglan Lily.mp3
-2022/04/29  上午 12:51                 0 temp2xyzxyz.txt
+2022/08/31  上午 12:41                 0 temp2xyzxyz.txt
 2022/04/29  上午 12:05         3,054,826 【李李鈴蘭】「 Light Switch    Charlie Puth 」┃原版伴奏炸裂，稍微調整。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:02         3,399,344 【李李鈴蘭】「 踊   Ado 」┃你很踴喔!我影片裡有一些好康的...。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:00         4,485,833 【李李鈴蘭】「 魚仔   盧廣仲 」┃各位LA芽都是被釣的...。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:04         3,159,896 【李李鈴蘭】「105度的你   阿肆 」┃國外高流量歌曲，在英文歌回也合理啦!。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:58         3,204,250 【李李鈴蘭】「105度的你   阿肆」 Cover by  李李鈴蘭.mp3
-2022/04/29  上午 12:01         3,153,732 【李李鈴蘭】「105度的你   阿肆」┃燒成這樣斯斯也沒救了吧。 Cover by Linglan Lily.mp3
 2022/04/28  下午 11:59         3,035,259 【李李鈴蘭】「2002   Anne Marie」┃青春樂曲，暈LA。 Cover by  李李鈴蘭 (中英歌詞).mp3
 2022/04/29  上午 12:01         3,730,868 【李李鈴蘭】「22    Taylor Swift 」┃使用時空轉移來到九年後。 Cover by  Linglan Lily (中英歌詞).mp3
 2022/04/28  下午 11:59         3,808,792 【李李鈴蘭】「A Thousand Miles    Vanessa Carlton」┃今晚想見到你💞。 Cover by  李李鈴蘭 (中英歌詞).mp3
@@ -36,20 +34,17 @@
 2022/04/28  下午 11:59         4,380,235 【李李鈴蘭】「Clarity   Zedd Foxes」┃EDM登場。 Cover by  李李鈴蘭 (中英歌詞).mp3
 2022/04/29  上午 12:05         3,924,967 【李李鈴蘭】「Closer    The Chainsmokers ft. Halsey 」┃讓我們更靠近。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         3,000,104 【李李鈴蘭】「Cold Water   Major Lazer」┃在翻車邊緣試探。 Cover by  Linglan Lily (中英歌詞).mp3
-2022/04/29  上午 12:05         2,901,809 【李李鈴蘭】「Cold Water   Major Lazer」┃關上燈，為地球盡一份心力。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         3,622,510 【李李鈴蘭】「Cool Kids    Echosmith」┃想當一個餅乾。 Cover by  李李鈴蘭 (中英歌詞).mp3
 2022/04/29  上午 12:05         4,159,985 【李李鈴蘭】「Counting Stars   OneRepublic 」┃經典英文歌曲!。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         3,480,478 【李李鈴蘭】「Dragostea din tei   O Zone」┃主播貼心附上空耳字幕，烤肉麵失業。 Cover by  李李鈴蘭.mp3
 2022/04/29  上午 12:03         3,483,997 【李李鈴蘭】「Dragostea din tei (賣阿喜)   O Zone 」┃反反覆覆的歌詞。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:03         3,701,710 【李李鈴蘭】「Firework   Katy Perry 」┃成為璀璨的煙火吧。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:02         3,432,137 【李李鈴蘭】「Focus   Ariana Grande 」┃目光都聚集在頭上的海膽。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:04         3,308,474 【李李鈴蘭】「friends   Marshmello & Anne-Marie 」┃萬人訂閱歌曲回歸。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:58         3,343,214 【李李鈴蘭】「friends   Marshmello & Anne-Marie」┃我們只是朋友。 Cover by  李李鈴蘭 (中英歌詞).mp3
 2022/04/29  上午 12:02         3,632,428 【李李鈴蘭】「Funny   Zedd & Jasmine 」┃失去的總是想念。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:02         3,381,827 【李李鈴蘭】「Heart Attack   Demi Lovato 」┃心臟爆擊!!為蘭主獻上心臟。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:05         3,546,002 【李李鈴蘭】「Henceforth   Orangestar 」┃翻唱回顧來啦!。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         3,021,693 【李李鈴蘭】「HOW哥宇宙   七月半」┃俺はみんなの日本語しか学ばないから。 Cover by  李李鈴蘭 (中日歌詞).mp3
-2022/04/29  上午 12:03         3,392,140 【李李鈴蘭】「I Love You 3000    Stephanie Poetri 」┃我愛你3000遍...。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:06         3,362,008 【李李鈴蘭】「I Love You 3000   Stephanie Poetri」┃關上燈，為地球盡一份心力。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:04         2,232,588 【李李鈴蘭】「King    GUMI 」┃鈴蘭女王降臨!。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:02         2,833,718 【李李鈴蘭】「Kiss My (Uh Oh)   Anne Marie & Little Mix 」┃展現Freestyle功力，毫無違和。 Cover by  Linglan Lily.mp3
@@ -63,30 +58,21 @@
 2022/04/29  上午 12:01         3,407,366 【李李鈴蘭】「New Rules    Dua Lipa 」┃不要開YT，不然你會在聊天室。 Cover by  Linglan Lily (中英歌詞).mp3
 2022/04/29  上午 12:02         4,295,105 【李李鈴蘭】「No Light No Light   Florence & The Machine 」┃向鈴蘭王尋求寬恕吧。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         2,949,366 【李李鈴蘭】「Oh No   Marina」┃OhNONONONO。 Cover by  Linglan Lily (中英歌詞).mp3
-2022/04/29  上午 12:03         3,137,752 【李李鈴蘭】「Older    Sasha Sloan 」┃特殊節日，也不忘愛家人。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         2,917,936 【李李鈴蘭】「Older    Sasha Sloan 」┃趁著節日趕緊與家人團聚吧。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:05         3,670,146 【李李鈴蘭】「Outside   Calvin Harris 」┃好聽LA。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:58         3,103,505 【李李鈴蘭】「POP STARS   K DA」┃天才小釣手又双叒叕來啦。 Cover by  李李鈴蘭 (中英字幕).mp3
-2022/04/29  上午 12:03         3,108,838 【李李鈴蘭】「POP STARS + 扛壩子   K DA + 草屯囝仔 」┃原曲只剩開頭，已經是扛壩子的形狀了。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:00         3,120,351 【李李鈴蘭】「POP START    K DA 」┃+9慶祝但真的沒有扛。 Cover by  Linglan Lily (中韓英歌詞).mp3
 2022/04/29  上午 12:05         3,321,084 【李李鈴蘭】「Prayer in C   Lilly Wood & The Prick 」┃好聽的英文歌!。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         3,091,438 【李李鈴蘭】「Radioactive    Imagine Dragons」┃歡迎來到新世代。 Cover by  李李鈴蘭 (中英歌詞).mp3
-2022/04/29  上午 12:04         3,675,601 【李李鈴蘭】「Rather Be   Jess Glynne 」┃1萬訂閱曲再度回歸。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:58         3,646,278 【李李鈴蘭】「Rather Be   Jess Glynne」 Cover by  李李鈴蘭 (中英歌詞).mp3
 2022/04/29  上午 12:04         3,044,688 【李李鈴蘭】「REAL樣   渣泥 」┃新曲風，暈爛。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:06         3,031,133 【李李鈴蘭】「REAL樣   渣泥ZANI」┃關上燈，為地球盡一份心力。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:05         3,276,902 【李李鈴蘭】「Ring Ring Ring   S.H.E 」┃翻唱回顧來啦!。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:04         2,594,879 【李李鈴蘭】「Rude    MAGIC 」┃為甚麼要比收入。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         2,837,117 【李李鈴蘭】「RUMOR ルーマー   GUMI 」┃這就是暈船的感覺嗎。 Cover by  Linglan Lily.mp3
-2022/04/28  下午 11:58         2,849,257 【李李鈴蘭】「Run away    Sunstroke Project & Olia Tira」┃扛壩子Mix。 Cover by  李李鈴蘭 (中英字幕).mp3
-2022/04/29  上午 12:03         2,864,060 【李李鈴蘭】「Run away   Sunstroke Project & Olia Tira 」┃空氣薩克斯風再度登場。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:58         2,904,333 【李李鈴蘭】「Run away   Sunstroke Project & Olia Tira」┃空氣薩克斯風一起搖擺。 Cover by  李李鈴蘭 (中英字幕).mp3
 2022/04/29  上午 12:01         3,940,004 【李李鈴蘭】「Setting Fires   XYLØ 」┃跟著鼓點晃動。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:00         3,772,629 【李李鈴蘭】「Shape of You    Ed Sheeran 」┃13萬訂閱曲。 Cover by  Linglan Lily (中英歌詞).mp3
 2022/04/29  上午 12:01         3,369,767 【李李鈴蘭】「Shivers   Ed Sheeran 」┃好甜阿，又...又暈了。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         3,949,748 【李李鈴蘭】「Something Just like This   Chris Martin 」┃找尋自己要的人。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:05         2,268,803 【李李鈴蘭】「STAY   The Kid LAROI & Justin Bieber 」┃翻帳自己的中文填詞版本!。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:04         2,266,237 【李李鈴蘭】「STAY   The Kid LAROI & Justin Bieber 」┃貼心將英文歌曲翻(填)譯(詞)，學英文更容易LA。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         2,292,127 【李李鈴蘭】「STAY   The Kid LAROI & Justin Bieber」┃填詞和聲自己來。 Cover by  李李鈴蘭 (中英歌詞).mp3
 2022/04/28  下午 11:58         3,971,799 【李李鈴蘭】「summertime   cinnamons × evening cinema」┃甜甜的夏日時光。 Cover by  李李鈴蘭 (中日歌詞).mp3
 2022/04/28  下午 11:59         2,997,095 【李李鈴蘭】「Sweet but Psycho   Ava Max」┃甜蜜瘋狂暈LA。 Cover by  李李鈴蘭 (中英歌詞).mp3
@@ -97,13 +83,11 @@
 2022/04/29  上午 12:05         3,540,286 【李李鈴蘭】「Treasure   陳忻玥 」┃翻唱回顧來啦!。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         3,044,369 【李李鈴蘭】「Treat You Better   Shawn Mendes 」┃我知道能比他更好，在這佳節脫單吧。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         3,027,215 【李李鈴蘭】「Unsteady    X Ambassadors 」┃通通留在鈴蘭的聊天室。 Cover by  Linglan Lily (中英歌詞).mp3
-2022/04/29  上午 12:06         3,003,283 【李李鈴蘭】「Unsteady   X Ambassadors」┃關上燈，為地球盡一份心力。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         2,839,727 【李李鈴蘭】「UR SO F KING COOL   TONES AND I」┃中文就是你很酷喔。 Cover by  李李鈴蘭 (中英歌詞).mp3
 2022/04/29  上午 12:00         3,482,662 【李李鈴蘭】「We Don't Talk Anymore   Charlie Puth」┃一代分手神曲。 Cover by  Linglan Lily (中英歌詞).mp3
 2022/04/29  上午 12:05         2,933,659 【李李鈴蘭】「きらきら   もさを 」┃獨唱版本!。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         4,319,767 【李李鈴蘭】「エゴママ   Marina 」┃聖誕選擇跟誰過我只相信命運石之門的選擇。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:00         3,610,512 【李李鈴蘭】「グレイ   キタニタツヤ 」┃路人超能100 II ED。 Cover by  Linglan Lily (中日歌詞).mp3
-2022/04/29  上午 12:06         3,624,121 【李李鈴蘭】「グレイ   キタニタツヤ」┃關上燈，為地球盡一份心力。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:05         2,941,440 【李李鈴蘭】「ヴァンパイア   初音ミク 」┃翻唱回顧來啦!。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         3,562,298 【李李鈴蘭】「一剪梅   費玉清 」┃80年代經典歌曲再次隨風飄起! xue hua piao piao bei feng xiao xiao。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:00         3,870,203 【李李鈴蘭】「一首想不通的古風   玄觴 貳嬸」┃真的古風的古風歌曲。 Cover by  Linglan Lily.mp3
@@ -113,14 +97,12 @@
 2022/04/29  上午 12:02         4,109,199 【李李鈴蘭】「不老夢   銀臨 」┃塋塋蔓草，歲歲不老；風雨如晦，死生爲誰。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:58         3,765,704 【李李鈴蘭】「不醉不會   田馥甄」┃慵懶撩人的歌曲。 Cover by  李李鈴蘭.mp3
 2022/04/29  上午 12:00         4,636,740 【李李鈴蘭】「九九八十一    樂正綾 洛天依 」┃苦工帝江再度上場搖擺。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:00         4,522,695 【李李鈴蘭】「人間不值得   黃詩扶 」┃古風歌曲，戲腔切換。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:04         4,516,137 【李李鈴蘭】「人間不值得   黃詩扶 」┃我掰不出來了...。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:02         4,149,969 【李李鈴蘭】「他人事の音がする   GUMI 」┃總有一天我們都會忘記擦身而過之人。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:00         5,036,186 【李李鈴蘭】「他們說我是沒有用的年輕人   Goodband 」┃推廣鈴蘭的正常向歌曲。 Cover by  Linglan Lily.mp3
 2022/04/28  下午 11:59         3,545,569 【李李鈴蘭】「仰望   楊丞琳」┃仰望鈴蘭，能安靜聽完。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:01         3,650,740 【李李鈴蘭】「伽藍經    子弥 」┃餐酒館前菜。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:04         4,394,674 【李李鈴蘭】「何以歌    Aki阿杰 」┃太好聽了所以復刻第三遍。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:03         4,390,316 【李李鈴蘭】「何以歌    Aki阿杰 」┃蒿吐星印 How To Sing。 Cover by  Linglan Lily (2).mp3
 2022/04/29  上午 12:01         4,404,616 【李李鈴蘭】「何以歌    Aki阿杰 」┃蒿吐星印 How To Sing。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:05         4,277,974 【李李鈴蘭】「作為怪物    李宇春 吳青峰 」┃作為帝江....。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:03         3,323,288 【李李鈴蘭】「你以為    宇宙人 」┃工具人之歌。 Cover by  Linglan Lily.mp3
@@ -157,7 +139,6 @@
 2022/04/28  下午 11:58         4,310,566 【李李鈴蘭】「小丑的品格   泠鳶yousa」 Cover by  李李鈴蘭.mp3
 2022/04/29  上午 12:03         2,295,924 【李李鈴蘭】「小幸運   田馥甄 」┃甜蘭Ver，很甜很甜。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:02         4,168,666 【李李鈴蘭】「小幸運   田馥甄 」┃蘭哥獻上大幸運。 Cover by  Linglan Lily.mp3
-2022/04/29  上午 12:06         4,186,699 【李李鈴蘭】「小幸運   田馥甄」┃關上燈，為地球盡一份心力。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:02         3,513,272 【李李鈴蘭】「小棋童   不純君 」┃輕快樂曲!唱一首故事。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:00         4,426,454 【李李鈴蘭】「少年弦   夏小桐 」┃戲腔無縫切換。 Cover by  Linglan Lily.mp3
 2022/04/29  上午 12:05         3,856,620 【李李鈴蘭】「山海    草東沒有派對 」┃他明白，他明白!。 Cover by  Linglan Lily.mp3
@@ -318,8 +299,8 @@
 2021/10/30  下午 11:06         4,260,621 長安亂／李李鈴蘭.mp3
 2021/10/30  下午 11:06         3,540,477 阿楚姑娘│李李鈴蘭 Linglan Lily.mp3
 2021/10/30  下午 11:06         1,654,365 鳥鳥模仿秀首部曲│李李鈴蘭 Linglan Lily.mp3
-             313 File(s)  1,119,264,583 bytes
+             294 File(s)  1,057,299,386 bytes
 
      Total Files Listed:
-             313 File(s)  1,119,264,583 bytes
-               2 Dir(s)  254,779,355,136 bytes free
+             294 File(s)  1,057,299,386 bytes
+               2 Dir(s)  138,400,948,224 bytes free
